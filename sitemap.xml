@@ -8,6 +8,16 @@
   </url>
   
   <url>
+    <loc>https://lilin90.github.io/2018/12/my-second-post/</loc>
+    <lastmod>2018-12-02T00:09:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lilin90.github.io/2018/12/my-third-post/</loc>
+    <lastmod>2018-12-02T00:09:25+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lilin90.github.io/archives/</loc>
     <priority>0</priority>
   </url>
@@ -54,8 +64,20 @@
   </url>
   
   <url>
+    <loc>https://lilin90.github.io/tags/testing/</loc>
+    <lastmod>2018-12-02T00:09:25+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://lilin90.github.io/categories/tranquilpeak/</loc>
     <lastmod>2018-12-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lilin90.github.io/tags/travel/</loc>
+    <lastmod>2018-12-02T00:09:25+08:00</lastmod>
     <priority>0</priority>
   </url>
   
