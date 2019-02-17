@@ -6,44 +6,26 @@
     <description>Recent content in Tags on Lilian Lee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lilianlee.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Html Elements</title>
-      <link>https://lilianlee.me/tags/html-elements/</link>
-      <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
+      <title>Github</title>
+      <link>https://lilianlee.me/tags/github/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://lilianlee.me/tags/html-elements/</guid>
+      <guid>https://lilianlee.me/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Markdown</title>
-      <link>https://lilianlee.me/tags/markdown/</link>
-      <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
+      <title>Hugo</title>
+      <link>https://lilianlee.me/tags/hugo/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://lilianlee.me/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Testing</title>
-      <link>https://lilianlee.me/tags/testing/</link>
-      <pubDate>Sun, 02 Dec 2018 00:09:25 +0800</pubDate>
-      
-      <guid>https://lilianlee.me/tags/testing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Travel</title>
-      <link>https://lilianlee.me/tags/travel/</link>
-      <pubDate>Sun, 02 Dec 2018 00:09:25 +0800</pubDate>
-      
-      <guid>https://lilianlee.me/tags/travel/</guid>
+      <guid>https://lilianlee.me/tags/hugo/</guid>
       <description></description>
     </item>
     

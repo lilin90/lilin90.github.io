@@ -6,37 +6,19 @@
     <description>Recent content on Lilian Lee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://lilianlee.me/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My First Post</title>
-      <link>https://lilianlee.me/2018/12/my-first-post/</link>
-      <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
+      <title>How to Easily Build a Blog Using GitHub Pages and Hugo</title>
+      <link>https://lilianlee.me/2019/02/how-to-easily-build-a-blog-using-github-pages-and-hugo/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://lilianlee.me/2018/12/my-first-post/</guid>
-      <description>This blog is for testing.
-mkdir -p themes cd themes  We are delighted to be able to inform the reader, that during the whole of this scene, Gringoire and his piece had stood firm. His actors, spurred on by him, had not ceased to spout his comedy, and he had not ceased to listen to it. We are delighted to be able to inform the reader, that during the whole of this scene, Gringoire and his piece had stood firm.</description>
-    </item>
-    
-    <item>
-      <title>My Second Post</title>
-      <link>https://lilianlee.me/2018/12/my-second-post/</link>
-      <pubDate>Sun, 02 Dec 2018 00:09:25 +0800</pubDate>
-      
-      <guid>https://lilianlee.me/2018/12/my-second-post/</guid>
-      <description>We are delighted to be able to inform the reader, that during the whole of this scene, Gringoire and his piece had stood firm. His actors, spurred on by him, had not ceased to spout his comedy, and he had not ceased to listen to it. He had made up his mind about the tumult, and was determined to proceed to the end, not giving up the hope of a return of attention on the part of the public.</description>
-    </item>
-    
-    <item>
-      <title>My Third Post</title>
-      <link>https://lilianlee.me/2018/12/my-third-post/</link>
-      <pubDate>Sun, 02 Dec 2018 00:09:25 +0800</pubDate>
-      
-      <guid>https://lilianlee.me/2018/12/my-third-post/</guid>
-      <description></description>
+      <guid>https://lilianlee.me/2019/02/how-to-easily-build-a-blog-using-github-pages-and-hugo/</guid>
+      <description>I&amp;rsquo;m a Technical Writer who has been using GitHub on each workday and on some weekends since August, 2017. I write things now and then on several Chinese platforms such as WeChat Subscription Account and Zhihu Column.
+At the end of 2018, after I got familiar with GitHub Pages, &amp;ldquo;a static site hosting service designed to host your personal, organization, or project pages directly from a GitHub repository&amp;rdquo;, and Hugo, &amp;ldquo;one of the most popular open-source static site generators&amp;rdquo;, I built a personal blog by myself.</description>
     </item>
     
   </channel>

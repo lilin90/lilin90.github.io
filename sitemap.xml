@@ -3,18 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://lilianlee.me/2018/12/my-first-post/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lilianlee.me/2018/12/my-second-post/</loc>
-    <lastmod>2018-12-02T00:09:25+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lilianlee.me/2018/12/my-third-post/</loc>
-    <lastmod>2018-12-02T00:09:25+08:00</lastmod>
+    <loc>https://lilianlee.me/2019/02/how-to-easily-build-a-blog-using-github-pages-and-hugo/</loc>
+    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -28,56 +18,44 @@
   </url>
   
   <url>
-    <loc>https://lilianlee.me/categories/features/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
+    <loc>https://lilianlee.me/categories/github/</loc>
+    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lilianlee.me/tags/html-elements/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
+    <loc>https://lilianlee.me/tags/github/</loc>
+    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lilianlee.me/tags/hugo/</loc>
+    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lilianlee.me/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lilianlee.me/tags/markdown/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lilianlee.me/post/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://lilianlee.me/tags/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://lilianlee.me/tags/testing/</loc>
-    <lastmod>2018-12-02T00:09:25+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lilianlee.me/categories/tranquilpeak/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://lilianlee.me/tags/travel/</loc>
-    <lastmod>2018-12-02T00:09:25+08:00</lastmod>
+    <loc>https://lilianlee.me/categories/website/</loc>
+    <lastmod>2019-02-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
