@@ -12,6 +12,24 @@
     
     
     <item>
+      <title>Blog</title>
+      <link>https://lilianlee.me/tags/blog/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lilianlee.me/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coronavirus</title>
+      <link>https://lilianlee.me/tags/coronavirus/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lilianlee.me/tags/coronavirus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Github</title>
       <link>https://lilianlee.me/tags/github/</link>
       <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
@@ -26,6 +44,15 @@
       <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://lilianlee.me/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Remote Work</title>
+      <link>https://lilianlee.me/tags/remote-work/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lilianlee.me/tags/remote-work/</guid>
       <description></description>
     </item>
     

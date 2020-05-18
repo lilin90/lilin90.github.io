@@ -41,6 +41,8 @@ At the end of 2018, after I got familiar with GitHub Pages, &ldquo;a static site
   
   
     
+      <meta property="article:tag" content="blog">
+    
       <meta property="article:tag" content="GitHub">
     
       <meta property="article:tag" content="Hugo">
@@ -324,6 +326,24 @@ ga('send', 'pageview');
 
 <p><img src="https://res.cloudinary.com/lilian-photos/image/upload/v1544329892/github-pages-hugo-blog/github-hugo-800.png" alt="1-GitHub plus Hugo logos" /></p>
 
+<h1 id="table-of-contents">Table of Contents</h1><nav id="TableOfContents">
+<ul>
+<li><a href="#step-1-create-a-github-repository">Step 1: Create a GitHub repository</a></li>
+<li><a href="#step-2-install-hugo">Step 2: Install Hugo</a></li>
+<li><a href="#step-3-create-a-new-hugo-site">Step 3: Create a new Hugo site</a></li>
+<li><a href="#step-4-choose-a-hugo-theme-and-clone-it-to-a-local-directory">Step 4: Choose a Hugo theme and clone it to a local directory</a></li>
+<li><a href="#step-5-edit-the-configuration-file">Step 5: Edit the configuration file</a></li>
+<li><a href="#step-6-create-a-new-post">Step 6: Create a new post</a></li>
+<li><a href="#step-7-preview-your-new-site">Step 7: Preview your new site</a></li>
+<li><a href="#step-8-build-your-hugo-site">Step 8: Build your Hugo site</a></li>
+<li><a href="#step-9-convert-your-site-folder-to-a-git-repository">Step 9: Convert your site folder to a Git repository</a></li>
+<li><a href="#step-10-link-the-local-repository-to-the-remote-origin">Step 10: Link the local repository to the remote origin</a></li>
+<li><a href="#step-11-commit-your-changes-to-the-local-git-repository">Step 11: Commit your changes to the local Git repository</a></li>
+<li><a href="#step-12-push-your-changes-to-the-remote-origin">Step 12: Push your changes to the remote origin</a></li>
+<li><a href="#what-s-next-add-a-new-post-later">What&rsquo;s next: add a new post later</a></li>
+</ul>
+</nav>
+
 <!--
 **Table of contents:**
 
@@ -342,7 +362,7 @@ ga('send', 'pageview');
 - [What's next: add a new post later](#whats-next-add-a-new-post-later)
 -->
 
-<h2 id="step-1-create-a-github-repository">Step 1: Create a GitHub repository</h2>
+<h1 id="step-1-create-a-github-repository">Step 1: Create a GitHub repository</h1>
 
 <ol>
 <li><p>Create a GitHub account.</p>
@@ -359,7 +379,7 @@ ga('send', 'pageview');
 <p><img src="https://res.cloudinary.com/lilian-photos/image/upload/v1547041464/github-pages-hugo-blog/01-creat-new-repo.png" alt="Create a new repository" /></p></li>
 </ol>
 
-<h2 id="step-2-install-hugo">Step 2: Install Hugo</h2>
+<h1 id="step-2-install-hugo">Step 2: Install Hugo</h1>
 
 <ol>
 <li><p>Refer to the official <a href="https://gohugo.io/getting-started/installing/">Hugo installation guide</a> and get prepared.</p>
@@ -381,7 +401,7 @@ ga('send', 'pageview');
 </code></pre></li>
 </ol>
 
-<h2 id="step-3-create-a-new-hugo-site">Step 3: Create a new Hugo site</h2>
+<h1 id="step-3-create-a-new-hugo-site">Step 3: Create a new Hugo site</h1>
 
 <ol>
 <li><p>Go to the directory where you want to place the Hugo site folder.</p>
@@ -396,7 +416,7 @@ ga('send', 'pageview');
 </code></pre></li>
 </ol>
 
-<h2 id="step-4-choose-a-hugo-theme-and-clone-it-to-a-local-directory">Step 4: Choose a Hugo theme and clone it to a local directory</h2>
+<h1 id="step-4-choose-a-hugo-theme-and-clone-it-to-a-local-directory">Step 4: Choose a Hugo theme and clone it to a local directory</h1>
 
 <ol>
 <li><p>Go to the <a href="https://themes.gohugo.io/">Hugo Themes</a> page and choose one theme for your site.</p>
@@ -412,7 +432,7 @@ git clone https://github.com/kakawait/hugo-tranquilpeak-theme.git tranquilpeak  
 </code></pre></li>
 </ol>
 
-<h2 id="step-5-edit-the-configuration-file">Step 5: Edit the configuration file</h2>
+<h1 id="step-5-edit-the-configuration-file">Step 5: Edit the configuration file</h1>
 
 <ol>
 <li><p>In the root directory of your site folder, open the <code>config.toml</code> file using <a href="https://code.visualstudio.com/">VS Code</a>.</p>
@@ -428,7 +448,7 @@ git clone https://github.com/kakawait/hugo-tranquilpeak-theme.git tranquilpeak  
 </div></li>
 </ol>
 
-<h2 id="step-6-create-a-new-post">Step 6: Create a new post</h2>
+<h1 id="step-6-create-a-new-post">Step 6: Create a new post</h1>
 
 <ol>
 <li><p>Go to the root directory of your site folder.</p>
@@ -444,7 +464,7 @@ git clone https://github.com/kakawait/hugo-tranquilpeak-theme.git tranquilpeak  
 <li><p>Edit the newly created post and add some content.</p></li>
 </ol>
 
-<h2 id="step-7-preview-your-new-site">Step 7: Preview your new site</h2>
+<h1 id="step-7-preview-your-new-site">Step 7: Preview your new site</h1>
 
 <ol>
 <li><p>Start the Hugo server using the following command.</p>
@@ -457,7 +477,7 @@ git clone https://github.com/kakawait/hugo-tranquilpeak-theme.git tranquilpeak  
 <p>If you&rsquo;re satisfied with the preview, move to the next step. If not, edit your post or the <code>config.toml</code> file and preview again.</p></li>
 </ol>
 
-<h2 id="step-8-build-your-hugo-site">Step 8: Build your Hugo site</h2>
+<h1 id="step-8-build-your-hugo-site">Step 8: Build your Hugo site</h1>
 
 <p>In the root directory of your site folder, run the <a href="https://gohugo.io/commands/hugo/#hugo"><code>Hugo</code> command</a> to build your site:</p>
 
@@ -468,7 +488,7 @@ git clone https://github.com/kakawait/hugo-tranquilpeak-theme.git tranquilpeak  
 <p>The <a href="https://gohugo.io/content-management/urls/#permalinks">default Hugo target directory</a> for your built website is <code>public/</code>. However, you can change this value by specifying a different <code>publishDir</code> in your <a href="https://gohugo.io/getting-started/configuration/">site configuration</a>.</p>
 </blockquote>
 
-<h2 id="step-9-convert-your-site-folder-to-a-git-repository">Step 9: Convert your site folder to a Git repository</h2>
+<h1 id="step-9-convert-your-site-folder-to-a-git-repository">Step 9: Convert your site folder to a Git repository</h1>
 
 <ol>
 <li><p>Go to the <code>lilian-blog/public</code> directory and initialize the Git repository.</p>
@@ -483,7 +503,7 @@ git init  # Initializes the Git repository.
 </code></pre></li>
 </ol>
 
-<h2 id="step-10-link-the-local-repository-to-the-remote-origin">Step 10: Link the local repository to the remote origin</h2>
+<h1 id="step-10-link-the-local-repository-to-the-remote-origin">Step 10: Link the local repository to the remote origin</h1>
 
 <ol>
 <li><p>In the <code>lilian-blog/public</code> directory, add the remote origin for your local Git repository using the following command.</p>
@@ -513,7 +533,7 @@ git init  # Initializes the Git repository.
 <p>If the <code>[remote &quot;origin&quot;]</code> information is displayed, your local Git repository has been successfully linked to the remote origin.</p></li>
 </ol>
 
-<h2 id="step-11-commit-your-changes-to-the-local-git-repository">Step 11: Commit your changes to the local Git repository</h2>
+<h1 id="step-11-commit-your-changes-to-the-local-git-repository">Step 11: Commit your changes to the local Git repository</h1>
 
 <p>In the <code>lilian-blog/public</code> directory, run the following command with a commit message that describes what you have changed:</p>
 
@@ -522,7 +542,7 @@ git add .  # Adds all modified or newly created files. You can also just add a c
 git commit -m &quot;Add a new post&quot;  # &quot;Add a new post&quot; is the commit message.
 </code></pre>
 
-<h2 id="step-12-push-your-changes-to-the-remote-origin">Step 12: Push your changes to the remote origin</h2>
+<h1 id="step-12-push-your-changes-to-the-remote-origin">Step 12: Push your changes to the remote origin</h1>
 
 <p>In the <code>lilian-blog/public</code> directory, run the following command to push your changes:</p>
 
@@ -535,7 +555,7 @@ git commit -m &quot;Add a new post&quot;  # &quot;Add a new post&quot; is the co
 
 <p>By the way, I bought a domain name <a href="https://lilianlee.me">https://lilianlee.me</a> and linked it to the original default blog URL. So when you visit <a href="https://lilin90.github.io">https://lilin90.github.io</a>, the page will directly jumps to <a href="https://lilianlee.me">https://lilianlee.me</a>.</p>
 
-<h2 id="what-s-next-add-a-new-post-later">What&rsquo;s next: add a new post later</h2>
+<h1 id="what-s-next-add-a-new-post-later">What&rsquo;s next: add a new post later</h1>
 
 <p>To add a new post later, you can just take the following steps:</p>
 
@@ -558,6 +578,8 @@ git commit -m &quot;Add a new post&quot;  # &quot;Add a new post&quot; is the co
                   <div class="post-footer-tags">
                     <span class="text-color-light text-small">TAGGED IN</span><br/>
                     
+  <a class="tag tag--primary tag--small" href="https://lilianlee.me/tags/blog/">blog</a>
+
   <a class="tag tag--primary tag--small" href="https://lilianlee.me/tags/github/">GitHub</a>
 
   <a class="tag tag--primary tag--small" href="https://lilianlee.me/tags/hugo/">Hugo</a>
@@ -581,7 +603,7 @@ git commit -m &quot;Add a new post&quot;  # &quot;Add a new post&quot; is the co
             </li>
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--disabled">
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://lilianlee.me/2020/how-i-embraced-remote-work-amid-the-coronavirus-pandemic/" data-tooltip="How I Embraced Remote Work Amid the Coronavirus Pandemic">
               
                   <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                   <i class="fa fa-angle-right"></i>
@@ -626,7 +648,7 @@ git commit -m &quot;Add a new post&quot;  # &quot;Add a new post&quot; is the co
       
       <li class="post-action">
         
-          <a class="post-action-btn btn btn--default" href="#">
+          <a class="post-action-btn btn btn--default" href="#table-of-contents">
         
           <i class="fa fa-list"></i>
         </a>
@@ -667,7 +689,7 @@ git commit -m &quot;Add a new post&quot;  # &quot;Add a new post&quot; is the co
             </li>
             <li class="post-action">
               
-                <a class="post-action-btn btn btn--disabled">
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://lilianlee.me/2020/how-i-embraced-remote-work-amid-the-coronavirus-pandemic/" data-tooltip="How I Embraced Remote Work Amid the Coronavirus Pandemic">
               
                   <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                   <i class="fa fa-angle-right"></i>
@@ -712,7 +734,7 @@ git commit -m &quot;Add a new post&quot;  # &quot;Add a new post&quot; is the co
       
       <li class="post-action">
         
-          <a class="post-action-btn btn btn--default" href="#">
+          <a class="post-action-btn btn btn--default" href="#table-of-contents">
         
           <i class="fa fa-list"></i>
         </a>
@@ -800,6 +822,24 @@ git commit -m &quot;Add a new post&quot;  # &quot;Add a new post&quot; is the co
           <div class="media">
             
             <div class="media-body">
+              <a class="link-unstyled" href="https://lilianlee.me/2020/how-i-embraced-remote-work-amid-the-coronavirus-pandemic/">
+                <h3 class="media-heading">How I Embraced Remote Work Amid the Coronavirus Pandemic</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  May 5, 2020
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather">Remote work becomes popular all over the world in the context of the coronavirus pandemic (COVID-19). I&rsquo;ve worked 👩🏻‍💻remotely for about three months since Feb 3, 2020. Before this, I only WFH occasionally, each time within three days. So it&rsquo;s the first time that I WFH for a relatively long period of time.
+  May 18, 2020 is the day that all staff can return back to the offices.</div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
               <a class="link-unstyled" href="https://lilianlee.me/2019/how-to-easily-build-a-blog-using-github-pages-and-hugo/">
                 <h3 class="media-heading">How to Easily Build a Blog Using GitHub Pages and Hugo</h3>
               </a>
@@ -822,7 +862,7 @@ At the end of 2018, after I got familiar with GitHub Pages, &ldquo;a static site
          data-message-zero="no post found"
          data-message-one="1 post found"
          data-message-other="{n} posts found">
-         1 posts found
+         2 posts found
       </p>
     </div>
   </div>

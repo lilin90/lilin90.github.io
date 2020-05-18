@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Work on Lilian Lee&#39;s Blog</title>
+    <link>https://lilianlee.me/categories/work/</link>
+    <description>Recent content in Work on Lilian Lee&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://lilianlee.me/categories/work/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How I Embraced Remote Work Amid the Coronavirus Pandemic</title>
+      <link>https://lilianlee.me/2020/how-i-embraced-remote-work-amid-the-coronavirus-pandemic/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lilianlee.me/2020/how-i-embraced-remote-work-amid-the-coronavirus-pandemic/</guid>
+      <description>Remote work becomes popular all over the world in the context of the coronavirus pandemic (COVID-19). I&amp;rsquo;ve worked 👩🏻‍💻remotely for about three months since Feb 3, 2020. Before this, I only WFH occasionally, each time within three days. So it&amp;rsquo;s the first time that I WFH for a relatively long period of time.
+  May 18, 2020 is the day that all staff can return back to the offices.</description>
+    </item>
+    
+  </channel>
+</rss>
