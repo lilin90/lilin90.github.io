@@ -258,5 +258,5 @@ canonifyurls = true
 
   # Customize copyright value "© 2017 <CUSTOMIZATION>. All Rights Reserved"
   [params.footer]
-  copyright = "© 2023 Lilian Lee. All Rights Reserved."
+  copyright = "2023 Lilian Lee. All Rights Reserved."
   #   copyright = "<a href=\"https://github.com/kakawait\">kakawait</a>"
