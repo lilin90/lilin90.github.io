@@ -241,3 +241,4 @@ To add a new post later, you can just take the following steps:
 3. [Build your Hugo site](#step-8-build-your-hugo-site).
 4. [Commit your changes to the local Git repository](#step-11-commit-your-changes-to-the-local-git-repository).
 5. [Push your changes to the remote origin](#step-12-push-your-changes-to-the-remote-origin).
+6. TODO: Add a GitHub Action to automatically deploy to GitHub Pages.
