@@ -36,8 +36,8 @@ canonifyurls = true
 
 [author]
   name = "Lilian Lee"
-  bio = "Keep learning | Enjoy life | Maintain inner peace | Amateur photographer"
-  job = "Content Strategist, Technical Writer"
+  bio = "Keep learning | Enjoy life | Maintain inner peace"
+  job = "Senior Technical Writer, Content Strategist"
   location = "Beijing, China"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   gravatarEmail = ""
