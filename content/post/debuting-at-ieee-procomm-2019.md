@@ -15,7 +15,7 @@ tags:
 # showTags: true
 # showPagination: true
 # showSocial: true
-summary: "My first visit to Germany and first experience at IEEE ProComm, with a bunch of memorable photos."
+summary: "My first visit to Germany and first experience at IEEE International Professional Communication Conference, with a bunch of memorable photos."
 ---
 
 From July 23rd to 26th, 2019, the [IEEE International Professional Communication Conference (ProComm) 2019](https://attend.ieee.org/procomm/conference/), hosted by the IEEE Professional Communication Society (PCS), took place at RWTH Aachen University in Germany.
