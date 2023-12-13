@@ -1,9 +1,5 @@
 ---
 title: "How to Easily Build a Blog Using GitHub Pages and Hugo"
-keywords:
-- GitHub Pages
-- Hugo
-- Personal Blog
 date: 2019-02-17
 thumbnailImage: https://res.cloudinary.com/lilian-photos/image/upload/v1544329892/github-pages-hugo-blog/github-hugo-800.png
 # thumbnailImagePosition: "left"
@@ -13,7 +9,6 @@ coverImage: https://res.cloudinary.com/lilian-photos/image/upload/v1543744099/gi
 categories:
 - GitHub
 tags:
-- blog
 - GitHub
 # showTags: true
 # showPagination: true
@@ -32,23 +27,6 @@ When my husband, a [Cloud Engineer](https://github.com/tennix), saw me creating 
 ![1-GitHub plus Hugo logos](https://res.cloudinary.com/lilian-photos/image/upload/v1544329892/github-pages-hugo-blog/github-hugo-800.png)
 
 <!-- toc -->
-<!--
-**Table of contents:**
-
-- [Step 1: Create a GitHub repository](#step-1-create-a-github-repository)
-- [Step 2: Install Hugo](#step-2-install-hugo)
-- [Step 3: Create a new Hugo site](#step-3-create-a-new-hugo-site)
-- [Step 4: Choose a Hugo theme and clone it to a local directory](#step-4-choose-a-hugo-theme-and-clone-it-to-a-local-directory)
-- [Step 5: Edit the configuration file](#step-5-edit-the-configuration-file)
-- [Step 6: Create a new post](#step-6-create-a-new-post)
-- [Step 7: Preview your new site](#step-7-preview-your-new-site)
-- [Step 8: Build your Hugo site](#step-8-build-your-hugo-site)
-- [Step 9: Convert your site folder to a Git repository](#step-9-convert-your-site-folder-to-a-git-repository)
-- [Step 10: Link the local repository to the remote origin](#step-10-link-the-local-repository-to-the-remote-origin)
-- [Step 11: Commit your changes to the local Git repository](#step-11-commit-your-changes-to-the-local-git-repository)
-- [Step 12: Push your changes to the remote origin](#step-12-push-your-changes-to-the-remote-origin)
-- [What's next: add a new post later](#whats-next-add-a-new-post-later)
--->
 
 # Step 1: Create a GitHub repository
 

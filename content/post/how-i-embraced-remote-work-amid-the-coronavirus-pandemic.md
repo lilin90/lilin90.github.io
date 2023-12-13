@@ -2,11 +2,6 @@
 title: "How I Embraced Remote Work Amid the Coronavirus Pandemic"
 date: 2020-05-17
 summary: "I've managed to find a productive and happy way during three-month remote work. In this post, I'll share my practices and thoughts about remote work."
-key words:
-- remote work
-- productive remote work
-- coronavirus
-- COVID-19
 thumbnailImage: https://res.cloudinary.com/lilian-photos/image/upload/v1589618829/blog-images/undraw_working_remotely.png
 # coverImage: https://res.cloudinary.com/lilian-photos/image/upload/v1589618829/blog-images/undraw_working_remotely.png
 categories:
