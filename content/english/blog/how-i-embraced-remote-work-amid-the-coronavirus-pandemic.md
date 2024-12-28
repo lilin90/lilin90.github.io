@@ -27,7 +27,7 @@ What to eat and where to work at home.
 
 🥘 **Food comes first.** Amid the coronavirus pandemic, we need more than ever to eat nutritious foods rich in vitamins and protein, to enhance our immunity and keep healthy.
 
-Generally, my husband and I walked about five minutes to the nearest supermarket to buy household essentials every two weeks. At other times, we just stayed at home. Because each time we bought a lot of foods 🛒, it was really a challenge to get them home. Then we came up with the idea of <!--{{< hl-text yellow >}}using a big luggage case to hold food{{< /hl-text >}}-->**using a big luggage case to hold food**, which was proved a good solution, though kind of weird. Later, as the disease became under control, we went out for shopping each week or even more frequently. And we didn't need to carry a luggage case with us any more.
+Generally, my husband and I walked about five minutes to the nearest supermarket to buy household essentials every two weeks. At other times, we just stayed at home. Because each time we bought a lot of foods 🛒, it was really a challenge to get them home. Then we came up with the idea of <!--using a big luggage case to hold food-->**using a big luggage case to hold food**, which was proved a good solution, though kind of weird. Later, as the disease became under control, we went out for shopping each week or even more frequently. And we didn't need to carry a luggage case with us any more.
 
 ![Shopping at supermarket](https://res.cloudinary.com/lilian-photos/image/upload/v1691314998/used-images/20200216-supermarket.jpg)
 

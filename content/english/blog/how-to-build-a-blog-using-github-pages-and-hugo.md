@@ -96,11 +96,11 @@ When my husband, a [Cloud Engineer](https://github.com/tennix), saw me creating 
 
 1. In the root directory of your site folder, open the `config.toml` file using [VS Code](https://code.visualstudio.com/).
 
-    {{< alert info >}}[Visual Studio Code](https://en.wikipedia.org/wiki/Visual_Studio_Code) (VS Code) is an open-source source code editor developed by Microsoft for Windows, Linux and macOS. I use it almost every day. If you haven't got it installed, download it [here](https://code.visualstudio.com/Download) and install it.{{< /alert >}}
+    [Visual Studio Code](https://en.wikipedia.org/wiki/Visual_Studio_Code) (VS Code) is an open-source source code editor developed by Microsoft for Windows, Linux and macOS. I use it almost every day. If you haven't got it installed, download it [here](https://code.visualstudio.com/Download) and install it.
 
 2. Refer to the [configuration explanation](https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md#tranquilpeak-configuration) of your theme and edit the `config.toml` file according to your need.
 
-    {{< alert info >}}The `theme` configuration item is the name of your site theme, which must be the same as the name of the directory that your theme is cloned to. In this example, it is `theme = "tranquilpeak"`.{{< /alert >}}
+    The `theme` configuration item is the name of your site theme, which must be the same as the name of the directory that your theme is cloned to. In this example, it is `theme = "tranquilpeak"`.
 
 # Step 6: Create a new post
 
@@ -204,7 +204,7 @@ In the `lilian-blog/public` directory, run the following command to push your ch
 git push -u origin master
 ```
 
-{{< hl-text yellow >}}Congratulations! Now you've got your customized personal blog!{{< /hl-text >}} For me, it is at https://lilin90.github.io.
+Congratulations! Now you've got your customized personal blog! For me, it is at https://lilin90.github.io.
 
 If you want to enforce [HTTPS](https://en.wikipedia.org/wiki/HTTPS) to prevent others from snooping on or tampering with traffic to your site, go to your repository, click **Settings** and check **Enforce HTTPS**.
 
