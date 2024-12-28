@@ -1,3 +1,7 @@
 [submodule "themes/tranquilpeak"]
 	path = themes/tranquilpeak
 	url = https://github.com/kakawait/hugo-tranquilpeak-theme.git
+[submodule "themes/hugoplate"]
+	path = themes/hugoplate
+	url = https://github.com/lilin90/hugoplate
+	branch = lilian
