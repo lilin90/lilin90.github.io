@@ -12,7 +12,7 @@ categories:
 - travel
 tags:
 - technical writing
-- GitHub
+- github
 - presentation
 # showTags: true
 # showPagination: true
