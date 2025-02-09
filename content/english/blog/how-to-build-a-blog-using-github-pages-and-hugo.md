@@ -9,7 +9,7 @@ coverImage: https://res.cloudinary.com/lilian-photos/image/upload/v1543744099/gi
 # metaAlignment: center
 # coverMeta: out
 categories: ["github"]
-tags: ["github"]
+tags: ["GitHub"]
 # showTags: true
 # showPagination: true
 # showSocial: true
