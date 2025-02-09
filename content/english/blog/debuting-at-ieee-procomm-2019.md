@@ -1,6 +1,7 @@
 ---
 title: "Debuting at IEEE ProComm 2019: My Journey at RWTH Aachen University, Germany"
 date: 2019-08-23
+image: "/images/lilian-at-procomm-ieee-2.png"
 thumbnailImage: https://res.cloudinary.com/lilian-photos/image/upload/v1702473549/ieee-procomm-2019/IMG_7157.jpg
 # thumbnailImagePosition: "left"
 # coverImage:
@@ -30,7 +31,7 @@ My sharing ["Documentation Development Practice in Open Source Startups - Take 
 
 <!-- toc -->
 
-# First impressions
+## First impressions
 
 The conference began with a warm welcome at the registration area called "forum M," where conference volunteers, including familiar faces from Peking University, greeted attendees.
 
@@ -56,7 +57,7 @@ And the conference provided two booklets: one detailed the schedule and agenda, 
 
 ![conf booklet](https://res.cloudinary.com/lilian-photos/image/upload/v1702475182/ieee-procomm-2019/IMG_6854.jpg)
 
-# Exploring essence
+## Exploring essence
 
 This ProComm conference featured a range of academic discussions, predominantly attended by educators and students from various countries.
 
@@ -70,7 +71,7 @@ The panel of “Technical Communication in China” featured four presentations 
 
 ![panel of tech comm in China](https://res.cloudinary.com/lilian-photos/image/upload/v1702475452/ieee-procomm-2019/IMG_7649.jpg)
 
-# Tech Writer’s sharp eye
+## Tech Writer’s sharp eye
 
 There was a small hiccup. The day before the panel of “Technical Communication in China”, when I was looking at the agenda in the booklet, I found that the Part 2 and the other three sessions in the same time slot were written in the same room.
 
@@ -78,7 +79,7 @@ There was a small hiccup. The day before the panel of “Technical Communication
 
 So I told the program chair immediately, and after his communication, it was indeed a mistake. The conference staff made a prompt adjustment to ensure a seamless experience for all attendees. It seems that something went wrong at the review stage before the booklet was printed.
 
-# A memorable adventure
+## A memorable adventure
 
 Summing up this journey in one word would be "hot." After all, the venue was not air-conditioned in the 35 degree Celsius heat. The scorching heat mirrored the enthusiasm of the attendees, while the conference itself provided a platform for cross-cultural learning and sharing of professional communication insights.
 

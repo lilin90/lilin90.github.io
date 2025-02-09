@@ -1,29 +1,20 @@
 ---
 enable: true
-title: "What Users Are Saying About Hugoplate"
-description: "Don't just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Hugoplate."
+title: "What Others Are Saying About Me"
+description: "The people I work with inspire me to keep growing and push the boundaries of what I can accomplish. Here are some kind words from those who’ve worked with me."
 
 # Testimonials
 testimonials:
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+  - name: "Grace Cai"
+    designation: "Senior Technical Writer"
+    avatar: "https://avatars.githubusercontent.com/u/79440533?v=4"
+    content: "Lilian is an exceptional technical writer who excels at creating various types of documents and blogs, with expertise in docs-as-code practices. Driven by a genuine passion for learning and sharing knowledge in technical communication, her articles are a must-read for both beginners and seasoned professionals, offering practical insights and valuable guidance."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
-
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
-
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+  - name: "Faxin Hou"
+    designation: "Senior Technical Writer"
+#   avatar: "/images/avatar-sm.png"
+    avatar: "https://avatars.githubusercontent.com/u/35301108?v=4"
+    content: "Lilian is an outstanding technical writer. She has a solid foundation in technical writing and holds herself to the highest standards of documentation quality. Her communication skills are exceptional, and she has a strong sense of teamwork. As the documentation lead for TiDB at PingCAP, she has built a highly effective and cohesive documentation team. Working with her feels like a refreshing breeze."
 
 # don't create a separate page
 _build:
