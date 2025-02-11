@@ -77,60 +77,64 @@ When my husband, a [Cloud Engineer](https://github.com/tennix), saw me creating 
     hugo new site lilian-blog  # "lilian-blog" is my site folder name.
     ```
 
-## Step 4: Choose a Hugo theme and clone it to a local directory
+## Step 4: Choose and set up a Hugo theme
 
-1. Go to the [Hugo Themes](https://themes.gohugo.io/) page and choose one theme for your site.
+1. Choose a Hugo theme and clone it to a local directory.
 
-    Take the [Tranquilpeak theme](https://themes.gohugo.io/hugo-tranquilpeak-theme/) as an example in the following text.
+    1. Go to the [Hugo Themes](https://themes.gohugo.io/) page and choose one theme for your site.
 
-2. Clone it to a local directory by running the following command.
+        Take the [Tranquilpeak theme](https://themes.gohugo.io/hugo-tranquilpeak-theme/) as an example in the following text.
 
-    ```bash
-    cd ~/lilian-blog  # Changes to your site directory. Replace "lilian-blog" with your site folder name.
-    mkdir -p themes  # Creates the "themes" directory.
-    cd themes  # Changes to the "themes" directory.
-    git clone https://github.com/kakawait/hugo-tranquilpeak-theme.git tranquilpeak  # Clones the Tranquilpeak theme to the "tranquilpeak" directory.
+    2. Clone it to a local directory by running the following command.
+
+        ```bash
+        cd ~/lilian-blog  # Changes to your site directory. Replace "lilian-blog" with your site folder name.
+        mkdir -p themes  # Creates the "themes" directory.
+        cd themes  # Changes to the "themes" directory.
+        git clone https://github.com/kakawait/hugo-tranquilpeak-theme.git tranquilpeak  # Clones the Tranquilpeak theme to the "tranquilpeak" directory.
     ```
 
-## Step 5: Edit the configuration file
+2. Edit the configuration file.
 
-1. In the root directory of your site folder, open the `config.toml` file using [VS Code](https://code.visualstudio.com/).
+    1. In the root directory of your site folder, open the `config.toml` file using [VS Code](https://code.visualstudio.com/).
 
-    [Visual Studio Code](https://en.wikipedia.org/wiki/Visual_Studio_Code) (VS Code) is an open-source source code editor developed by Microsoft for Windows, Linux and macOS. I use it almost every day. If you haven't got it installed, download it [here](https://code.visualstudio.com/Download) and install it.
+        [Visual Studio Code](https://en.wikipedia.org/wiki/Visual_Studio_Code) (VS Code) is an open-source source code editor developed by Microsoft for Windows, Linux and macOS. I use it almost every day. If you haven't got it installed, download it [here](https://code.visualstudio.com/Download) and install it.
 
-2. Refer to the [configuration explanation](https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md#tranquilpeak-configuration) of your theme and edit the `config.toml` file according to your need.
+    2. Refer to the [configuration explanation](https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md#tranquilpeak-configuration) of your theme and edit the `config.toml` file according to your need.
 
-    The `theme` configuration item is the name of your site theme, which must be the same as the name of the directory that your theme is cloned to. In this example, it is `theme = "tranquilpeak"`.
+        The `theme` configuration item is the name of your site theme, which must be the same as the name of the directory that your theme is cloned to. In this example, it is `theme = "tranquilpeak"`.
 
-## Step 6: Create a new post
+## Step 5: Create and preview your content
 
-1. Go to the root directory of your site folder.
+1. Create a new post.
 
-    ```bash
-    cd ~/lilian-blog  # "lilian-blog" is the site folder name.
-    ```
+    1. Go to the root directory of your site folder.
 
-2. [Create a new post](https://gohugo.io/getting-started/quick-start/#step-4-add-some-content) using the following command.
+        ```bash
+        cd ~/lilian-blog  # "lilian-blog" is the site folder name.
+        ```
 
-    ```bash
-    hugo new post/my-first-post.md  # "my-first-post.md" is the file name of the new post. I also created such a file for testing.
-    ```
+    2. [Create a new post](https://gohugo.io/getting-started/quick-start/#step-4-add-some-content) using the following command.
 
-3. Edit the newly created post and add some content.
+        ```bash
+        hugo new post/my-first-post.md  # "my-first-post.md" is the file name of the new post. I also created such a file for testing.
+        ```
 
-## Step 7: Preview your new site
+    3. Edit the newly created post and add some content.
 
-1. Start the Hugo server using the following command.
+2. Preview your new site.
 
-    ```bash
-    hugo server -D
-    ```
+    1. Start the Hugo server using the following command.
 
-2. Preview your new site at http://localhost:1313/ using a browser.
+        ```bash
+        hugo server -D
+        ```
 
-    If you're satisfied with the preview, move to the next step. If not, edit your post or the `config.toml` file and preview again.
+    2. Preview your new site at http://localhost:1313/ using a browser.
 
-## Step 8: Build your Hugo site
+        If you're satisfied with the preview, move to the next step. If not, edit your post or the `config.toml` file and preview again.
+
+## Step 6: Build your Hugo site
 
 In the root directory of your site folder, run the [`Hugo` command](https://gohugo.io/commands/hugo/#hugo) to build your site:
 
@@ -140,69 +144,71 @@ hugo  # Builds your Hugo site and writes your static site to the "public" direct
 
 > The [default Hugo target directory](https://gohugo.io/content-management/urls/#permalinks) for your built website is `public/`. However, you can change this value by specifying a different `publishDir` in your [site configuration](https://gohugo.io/getting-started/configuration/).
 
-## Step 9: Convert your site folder to a Git repository
+## Step 7: Set up Git and push changes
 
-1. Go to the `lilian-blog/public` directory and initialize the Git repository.
+1. Convert your site folder to a Git repository
+
+    1. Go to the `lilian-blog/public` directory and initialize the Git repository.
+
+        ```bash
+        cd ~/lilian-blog/public  # "public" is the directory where the generated html files are located. It is the folder that will be converted to a Git repository.
+        git init  # Initializes the Git repository.
+        ```
+
+    2. Check the files in the `public` directory using the following command. You'll find the `.git` file is added.
+
+        ```bash
+        ls -a  # Displays the list with hidden files or directories.
+        ```
+
+2. Link the local repository to the remote origin.
+
+    1. In the `lilian-blog/public` directory, add the remote origin for your local Git repository using the following command.
+
+        ```bash
+        git remote add origin git@github.com:lilin90/lilin90.github.io.git  # "lilin90/lilin90.github.io.git" indicates "your-github-id/your-github-id.github.io.git".
+        ```
+
+    2. Check the files in the `config` file using the following command.
+
+        ```bash
+        cat .git/config  # Displays the config information.
+        ```
+
+        The above command returns the following result:
+
+        ```bash
+        [core]
+            repositoryformatversion = 0
+            filemode = true
+            bare = false
+            logallrefupdates = true
+            ignorecase = true
+            precomposeunicode = true
+        [remote "origin"]
+            url = git@github.com:lilin90/lilin90.github.io.git
+            fetch = +refs/heads/*:refs/remotes/origin/*
+        ```
+
+        If the `[remote "origin"]` information is displayed, your local Git repository has been successfully linked to the remote origin.
+
+3. Commit your changes to the local Git repository.
+
+    In the `lilian-blog/public` directory, run the following command with a commit message that describes what you have changed:
 
     ```bash
-    cd ~/lilian-blog/public  # "public" is the directory where the generated html files are located. It is the folder that will be converted to a Git repository.
-    git init  # Initializes the Git repository.
+    git status  # Shows what you have changed.
+    git add .  # Adds all modified or newly created files. You can also just add a certain file.
+    git commit -m "Add a new post"  # "Add a new post" is the commit message.
     ```
 
-2. Check the files in the `public` directory using the following command. You'll find the `.git` file is added.
+4. Push your changes to the remote origin.
+
+    In the `lilian-blog/public` directory, run the following command to push your changes:
 
     ```bash
-    ls -a  # Displays the list with hidden files or directories.
+    git push -u origin master
     ```
-
-## Step 10: Link the local repository to the remote origin
-
-1. In the `lilian-blog/public` directory, add the remote origin for your local Git repository using the following command.
-
-    ```bash
-    git remote add origin git@github.com:lilin90/lilin90.github.io.git  # "lilin90/lilin90.github.io.git" indicates "your-github-id/your-github-id.github.io.git".
-    ```
-
-2. Check the files in the `config` file using the following command.
-
-    ```bash
-    cat .git/config  # Displays the config information.
-    ```
-
-    The above command returns the following result:
-
-    ```bash
-    [core]
-        repositoryformatversion = 0
-        filemode = true
-        bare = false
-        logallrefupdates = true
-        ignorecase = true
-        precomposeunicode = true
-    [remote "origin"]
-        url = git@github.com:lilin90/lilin90.github.io.git
-        fetch = +refs/heads/*:refs/remotes/origin/*
-    ```
-
-    If the `[remote "origin"]` information is displayed, your local Git repository has been successfully linked to the remote origin.
-
-## Step 11: Commit your changes to the local Git repository
-
-In the `lilian-blog/public` directory, run the following command with a commit message that describes what you have changed:
-
-```bash
-git status  # Shows what you have changed.
-git add .  # Adds all modified or newly created files. You can also just add a certain file.
-git commit -m "Add a new post"  # "Add a new post" is the commit message.
-```
-
-## Step 12: Push your changes to the remote origin
-
-In the `lilian-blog/public` directory, run the following command to push your changes:
-
-```bash
-git push -u origin master
-```
 
 Congratulations! Now you've got your customized personal blog! For me, it is at https://lilin90.github.io.
 
