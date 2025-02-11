@@ -24,7 +24,9 @@ When my husband, a [Cloud Engineer](https://github.com/tennix), saw me creating 
 
 **In this post, I'd like to share the specific steps that I performed to build my personal blog using GitHub Pages and Hugo.** This post assumes that you are a non-technical person. It's easy and you don't have to know much about coding. Already dreaming of your new blog? Let's start!
 
-![1-GitHub plus Hugo logos](https://res.cloudinary.com/lilian-photos/image/upload/v1544329892/github-pages-hugo-blog/github-hugo-800.png)
+<p align="center">
+  <img src="https://res.cloudinary.com/lilian-photos/image/upload/v1544329892/github-pages-hugo-blog/github-hugo-800.png" alt="GitHub plus Hugo" width="800">
+</p>
 
 <!-- toc -->
 
@@ -39,7 +41,7 @@ When my husband, a [Cloud Engineer](https://github.com/tennix), saw me creating 
 
 3. [Create a new repository](https://github.com/new) named _username_.github.io, where _username_ is your username on GitHub.
 
-    ![Create a new repository](https://res.cloudinary.com/lilian-photos/image/upload/v1547041464/github-pages-hugo-blog/01-creat-new-repo.png)
+    <img src="https://res.cloudinary.com/lilian-photos/image/upload/v1547041464/github-pages-hugo-blog/01-creat-new-repo.png" alt="Create a new repository" width="800">
 
 ## Step 2: Install Hugo
 
@@ -79,7 +81,7 @@ When my husband, a [Cloud Engineer](https://github.com/tennix), saw me creating 
 
 ## Step 4: Choose and set up a Hugo theme
 
-1. Choose a Hugo theme and clone it to a local directory.
+1. **Choose a Hugo theme and clone it to a local directory.**
 
     1. Go to the [Hugo Themes](https://themes.gohugo.io/) page and choose one theme for your site.
 
@@ -92,9 +94,9 @@ When my husband, a [Cloud Engineer](https://github.com/tennix), saw me creating 
         mkdir -p themes  # Creates the "themes" directory.
         cd themes  # Changes to the "themes" directory.
         git clone https://github.com/kakawait/hugo-tranquilpeak-theme.git tranquilpeak  # Clones the Tranquilpeak theme to the "tranquilpeak" directory.
-    ```
+        ```
 
-2. Edit the configuration file.
+2. **Edit the configuration file.**
 
     1. In the root directory of your site folder, open the `config.toml` file using [VS Code](https://code.visualstudio.com/).
 
@@ -106,7 +108,7 @@ When my husband, a [Cloud Engineer](https://github.com/tennix), saw me creating 
 
 ## Step 5: Create and preview your content
 
-1. Create a new post.
+1. **Create a new post.**
 
     1. Go to the root directory of your site folder.
 
@@ -122,7 +124,7 @@ When my husband, a [Cloud Engineer](https://github.com/tennix), saw me creating 
 
     3. Edit the newly created post and add some content.
 
-2. Preview your new site.
+2. **Preview your new site.**
 
     1. Start the Hugo server using the following command.
 
@@ -142,11 +144,13 @@ In the root directory of your site folder, run the [`Hugo` command](https://gohu
 hugo  # Builds your Hugo site and writes your static site to the "public" directory by default.
 ```
 
-> The [default Hugo target directory](https://gohugo.io/content-management/urls/#permalinks) for your built website is `public/`. However, you can change this value by specifying a different `publishDir` in your [site configuration](https://gohugo.io/getting-started/configuration/).
+{{< notice "tip" >}}
+The [default Hugo target directory](https://gohugo.io/content-management/urls/#permalinks) for your built website is `public/`. However, you can change this value by specifying a different `publishDir` in your [site configuration](https://gohugo.io/getting-started/configuration/).
+{{< /notice >}}
 
 ## Step 7: Set up Git and push changes
 
-1. Convert your site folder to a Git repository
+1. **Convert your site folder to a Git repository.**
 
     1. Go to the `lilian-blog/public` directory and initialize the Git repository.
 
@@ -161,7 +165,7 @@ hugo  # Builds your Hugo site and writes your static site to the "public" direct
         ls -a  # Displays the list with hidden files or directories.
         ```
 
-2. Link the local repository to the remote origin.
+2. **Link the local repository to the remote origin.**
 
     1. In the `lilian-blog/public` directory, add the remote origin for your local Git repository using the following command.
 
@@ -177,7 +181,7 @@ hugo  # Builds your Hugo site and writes your static site to the "public" direct
 
         The above command returns the following result:
 
-        ```bash
+        ```toml
         [core]
             repositoryformatversion = 0
             filemode = true
@@ -192,7 +196,7 @@ hugo  # Builds your Hugo site and writes your static site to the "public" direct
 
         If the `[remote "origin"]` information is displayed, your local Git repository has been successfully linked to the remote origin.
 
-3. Commit your changes to the local Git repository.
+3. **Commit your changes to the local Git repository.**
 
     In the `lilian-blog/public` directory, run the following command with a commit message that describes what you have changed:
 
@@ -202,7 +206,7 @@ hugo  # Builds your Hugo site and writes your static site to the "public" direct
     git commit -m "Add a new post"  # "Add a new post" is the commit message.
     ```
 
-4. Push your changes to the remote origin.
+4. **Push your changes to the remote origin.**
 
     In the `lilian-blog/public` directory, run the following command to push your changes:
 
