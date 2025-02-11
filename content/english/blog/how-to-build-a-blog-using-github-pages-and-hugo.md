@@ -25,7 +25,7 @@ When my husband, a [Cloud Engineer](https://github.com/tennix), saw me creating 
 **In this post, I'd like to share the specific steps that I performed to build my personal blog using GitHub Pages and Hugo.** This post assumes that you are a non-technical person. It's easy and you don't have to know much about coding. Already dreaming of your new blog? Let's start!
 
 <p align="center">
-  <img src="https://res.cloudinary.com/lilian-photos/image/upload/v1544329892/github-pages-hugo-blog/github-hugo-800.png" alt="GitHub plus Hugo" width="800">
+  <img src="https://res.cloudinary.com/lilian-photos/image/upload/v1544329892/github-pages-hugo-blog/github-hugo-800.png" alt="GitHub plus Hugo" width="666">
 </p>
 
 <!-- toc -->
@@ -41,7 +41,9 @@ When my husband, a [Cloud Engineer](https://github.com/tennix), saw me creating 
 
 3. [Create a new repository](https://github.com/new) named _username_.github.io, where _username_ is your username on GitHub.
 
-    <img src="https://res.cloudinary.com/lilian-photos/image/upload/v1547041464/github-pages-hugo-blog/01-creat-new-repo.png" alt="Create a new repository" width="800">
+    <p align="center">
+      <img src="https://res.cloudinary.com/lilian-photos/image/upload/v1547041464/github-pages-hugo-blog/01-creat-new-repo.png" alt="Create a new repository" width="800">
+    </p>
 
 ## Step 2: Install Hugo
 
@@ -138,7 +140,7 @@ When my husband, a [Cloud Engineer](https://github.com/tennix), saw me creating 
 
 ## Step 6: Build your Hugo site
 
-In the root directory of your site folder, run the [`Hugo` command](https://gohugo.io/commands/hugo/#hugo) to build your site:
+In the root directory of your site folder, run the [`hugo` command](https://gohugo.io/commands/hugo/#hugo) to build your site:
 
 ```bash
 hugo  # Builds your Hugo site and writes your static site to the "public" directory by default.
