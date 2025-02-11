@@ -224,8 +224,7 @@ By the way, I bought a domain name https://lilianlee.me and linked it to the ori
 
 To add a new post later, you can just take the following steps:
 
-1. [Create a new post file and edit the content](#step-6-create-a-new-post).
-2. [Preview your new site in local](#step-7-preview-your-new-site).
-3. [Build your Hugo site](#step-8-build-your-hugo-site).
-4. [Commit your changes to the local Git repository](#step-11-commit-your-changes-to-the-local-git-repository).
-5. [Push your changes to the remote origin](#step-12-push-your-changes-to-the-remote-origin).
+1. Create and preview your content.
+2. Build your Hugo site.
+4. Commit your changes to the local Git repository.
+5. Push your changes to the remote origin.
