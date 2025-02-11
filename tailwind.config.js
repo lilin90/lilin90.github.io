@@ -44,6 +44,31 @@ module.exports = {
       padding: "2rem",
     },
     extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            'code::before': {
+              content: '""'
+            },
+            'code::after': {
+              content: '""'
+            },
+            'code': {
+              backgroundColor: '#f3f4f6', // 浅灰色背景
+              padding: '0.2em 0.4em', // 内边距
+              borderRadius: '0.25rem', // 圆角
+              fontFamily: 'monospace', // 等宽字体
+              color: '#1f2937', // 文字颜色
+              fontWeight: 'normal', // 取消加粗效果
+            },
+            // 暗色模式下的样式
+            '.dark code': {
+              backgroundColor: '#374151', // 暗色背景
+              color: '#f3f4f6', // 浅灰色文字
+            }
+          }
+        }
+      },
       colors: {
         text: theme.colors.default.text_color.default,
         light: theme.colors.default.text_color.light,
