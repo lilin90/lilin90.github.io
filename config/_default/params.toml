@@ -1,6 +1,7 @@
 #################### default parameters ############################
 # favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
-favicon = "https://res.cloudinary.com/lilian-photos/image/upload/v1735463070/favicon/favicon-L-512x512.png"
+favicon = "https://res.cloudinary.com/lilian-photos/image/upload/v1739530537/favicon/favicon-L.svg"
+# favicon = "https://res.cloudinary.com/lilian-photos/image/upload/v1735463070/favicon/favicon-L-512x512.png"
 # logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
 logo = "images/lilian-logo.png"
 logo_darkmode = "images/lilian-logo.png"
@@ -65,7 +66,7 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
 keywords = ["Lilian Lee", "Technical Writer"]
-description = "Senior Technical Writer"
+description = "Senior Technical Writer, a lifelong learner."
 author = "Lilian Lee"
 twitter = "lilianlee90"
 image = "https://res.cloudinary.com/lilian-photos/image/upload/v1691127619/cover/lilin.jpg"
