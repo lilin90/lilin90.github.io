@@ -12,7 +12,12 @@
   {{ if $categories }}
     <ul class="mb-4">
       <li class="mr-4 inline-block">
-        <i class="fa-regular fa-clock mr-2"></i>{{ time.Format ":date_long" .Params.Date }}
+        <a href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
+          <i class="fa-regular fa-circle-user mr-2"></i>{{ .Params.author }}
+        </a>
+      </li>
+      <li class="mr-4 inline-block">
+        <i class="fa-regular fa-clock mr-2"></i>{{ time.Format "2006-01-02" .Params.Date }}
       </li>
       <li class="mr-4 inline-block">
         <i class="fa-regular fa-folder mr-1"></i>
@@ -20,7 +25,7 @@
           <a
             href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
             class="ms-1"
-            >{{ . | humanize }}{{ if ne $i (sub (len $categories) 1) }}
+            >{{ . }}{{ if ne $i (sub (len $categories) 1) }}
               {{ "," }}
             {{ end }}
           </a>
