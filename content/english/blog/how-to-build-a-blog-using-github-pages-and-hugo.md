@@ -183,7 +183,7 @@ The [default Hugo target directory](https://gohugo.io/content-management/urls/#p
 
         The above command returns the following result:
 
-        ```toml
+        ```ini
         [core]
             repositoryformatversion = 0
             filemode = true
