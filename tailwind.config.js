@@ -53,6 +53,12 @@ module.exports = {
             'code::after': {
               content: '""'
             },
+            'ol': {
+              listStyleType: 'decimal',
+            },
+            'ol ol': {
+              listStyleType: 'lower-roman',
+            },
             'code': {
               backgroundColor: '#f3f4f6', // 浅灰色背景
               padding: '0.2em 0.4em', // 内边距
