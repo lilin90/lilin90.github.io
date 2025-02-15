@@ -1,0 +1,21 @@
+<div class="code-block relative">
+    <button
+      class="copy-button absolute top-6 right-2 w-12 h-8 flex items-center justify-center text-gray-100 rounded text-sm dark:text-gray-200"
+      data-copy-text="<i class='fas fa-copy'></i>"
+      data-copied-text="<i class='fas fa-check'></i>"
+      title="Copy"
+    >
+    <i class="fas fa-copy"></i>
+    </button>
+    {{- if .Type -}}
+    {{- $opts := dict "language" .Type "highlightLines" "" "lineNos" false "style" "monokai" -}}
+    <div class="overflow-x-auto">
+      {{- highlight .Inner .Type $opts -}}
+    </div>
+  {{- else -}}
+    <div class="overflow-x-auto">
+      <pre><code>{{- .Inner | safeHTML -}}</code></pre>
+    </div>
+  {{- end -}}
+
+  </div>
