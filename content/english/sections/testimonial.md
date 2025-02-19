@@ -16,6 +16,11 @@ testimonials:
     avatar: "https://avatars.githubusercontent.com/u/35301108?v=4"
     content: "Lilian is an outstanding technical writer. She has a solid foundation in technical writing and holds herself to the highest standards of documentation quality. Her communication skills are exceptional, and she has a strong sense of teamwork. As the documentation lead for TiDB at PingCAP, she has built a highly effective and cohesive documentation team. Working with her feels like a refreshing breeze."
 
+  - name: "Aolin Zhang"
+    designation: "Senior Technical Writer"
+    avatar: "https://avatars.githubusercontent.com/u/60599231?v=4"
+    content: "Lilian is a highly experienced technical writer with deep expertise in technical communication and docs-as-code practices. Her awesome-technical-communication project provided me with invaluable guidance when I was starting out as a technical writer. She regularly shares practical tips and in-depth analyses of emerging trends, helping technical writers adopt best practices and improve efficiency."
+
 # don't create a separate page
 _build:
   render: "never"
