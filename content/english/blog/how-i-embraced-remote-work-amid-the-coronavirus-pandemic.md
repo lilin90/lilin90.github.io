@@ -8,7 +8,7 @@ summary: "I've managed to find a productive and happy way during three-month rem
 thumbnailImage: https://res.cloudinary.com/lilian-photos/image/upload/v1589618829/blog-images/undraw_working_remotely.png
 # coverImage: https://res.cloudinary.com/lilian-photos/image/upload/v1589618829/blog-images/undraw_working_remotely.png
 categories: ["Work"]
-tags: ["Life"]
+# tags: [""]
 ---
 <!--![](https://res.cloudinary.com/lilian-photos/image/upload/v1618026887/blog-images/group_chat-1.png)-->
 **Remote work** becomes popular all over the world in the context of the **coronavirus** pandemic [(COVID-19)](https://www.google.com/covid19/#page-top). I've worked remotely for **three months** since Feb 3, 2020. Before this, I only WFH occasionally, each time within three days. So it's the first time that I WFH for a relatively long period of time.

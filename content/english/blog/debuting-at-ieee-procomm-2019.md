@@ -10,9 +10,9 @@ thumbnailImage: https://res.cloudinary.com/lilian-photos/image/upload/v170247354
 # metaAlignment: center
 # coverMeta: out
 categories:
-- Public Speaking
-tags:
 - Travel
+tags:
+- Public Speaking
 # showTags: true
 # showPagination: true
 # showSocial: true
