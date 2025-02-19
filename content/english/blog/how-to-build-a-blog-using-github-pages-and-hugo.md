@@ -9,7 +9,7 @@ thumbnailImage: https://res.cloudinary.com/lilian-photos/image/upload/v154432989
 coverImage: https://res.cloudinary.com/lilian-photos/image/upload/v1543744099/github-pages-hugo-blog/pexels-photo-907274.jpg
 # metaAlignment: center
 # coverMeta: out
-categories: ["GitHub", "work"]
+categories: ["Tech"]
 tags: ["GitHub"]
 # showTags: true
 # showPagination: true
