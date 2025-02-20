@@ -13,11 +13,12 @@ banner:
 features:
   - title: "My Expertise"
     image: "/images/undraw_my-files_yynz.svg"
-    content: "Coming soon..."
+    content: ""
     bulletpoints:
-      - "1"
+      - "Over 8 years of working experience in technical writing"
       - "2"
       - "3"
+      - "4"
     button:
       enable: false
       label: "Get Started Now"
@@ -25,19 +26,18 @@ features:
 
   - title: "My Side Projects"
     image: "/images/undraw_personal-notebook_blje.svg"
-    content: "Coming soon..."
+    content: ""
     bulletpoints:
-      - "x"
-      - "y"
-      - "z"
+      - "The lilin90/awesome-technical-communication GitHub project: a curated collection of valuable resources on various aspects of technical communication"
+      - "WeChat Subscription Account 技术传播那些事儿: sharing useful knowledge on technical communication in Chinese, with over 140 posts published"
     button:
       enable: true
-      label: "Learn more"
-      link: "https://github.com/lilin90/awesome-technical-communication"
+      label: "Check out now"
+      link: "https://github.com/lilin90"
 
   - title: "Me in the Community"
     image: "/images/undraw_conference_3n82.svg"
-    content: "Coming soon..."
+    content: ""
     bulletpoints:
       - "a"
       - "b"
