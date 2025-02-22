@@ -6,4 +6,4 @@ image: "https://res.cloudinary.com/lilian-photos/image/upload/v1691127619/cover/
 draft: false
 ---
 
-I'm a Senior Technical Writer based in Beijing, China. More info is coming...
+I'm a Senior Technical Writer based in Beijing, China.

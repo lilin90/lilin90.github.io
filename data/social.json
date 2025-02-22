@@ -1,24 +1,29 @@
 {
   "main": [
     {
-      "name": "facebook",
-      "icon": "fab fa-facebook",
-      "link": "https://www.facebook.com/"
-    },
-    {
-      "name": "twitter",
-      "icon": "fab fa-twitter",
-      "link": "https://twitter.com/"
-    },
-    {
       "name": "github",
       "icon": "fab fa-github",
-      "link": "https://www.github.com/"
+      "link": "https://github.com/lilin90"
     },
     {
       "name": "linkedin",
-      "icon": "fab fa-linkedin",
-      "link": "https://www.linkedin.com/"
+      "icon": "fab fa-linkedin-in",
+      "link": "https://www.linkedin.com/in/lilian-lee-54305777"
+    },
+    {
+      "name": "zhihu",
+      "icon": "fab fa-zhihu",
+      "link": "https://www.zhihu.com/people/liliansd"
+    },
+    {
+      "name": "x",
+      "icon": "fab fa-x-twitter",
+      "link": "https://x.com/lilianlee90"
+    },
+    {
+      "name": "facebook",
+      "icon": "fab fa-facebook-f",
+      "link": "https://www.facebook.com/lilian.lee.50596013"
     }
   ]
 }
