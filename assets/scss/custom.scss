@@ -1,1 +1,26 @@
 // Add your own custom styles here
+.content {
+    /* 默认状态 */
+    a {
+        color: #0969da;
+        text-decoration: none;
+      }
+    /* 悬停状态 */
+    a:hover {
+        color: #0056b3;              /* 颜色加深 */
+        text-decoration: underline;  /* 悬停显示下划线 */
+    }
+}
+
+// .content {
+//     /* 默认状态 */
+//     a {
+//         color: #5555FF;
+//         text-decoration: none;
+//       }
+//     /* 悬停状态 */
+//     a:hover {
+//         color: #0969da;              /* 颜色加深 */
+//         text-decoration: underline;  /* 悬停显示下划线 */
+//     }
+// }
