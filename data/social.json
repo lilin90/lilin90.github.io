@@ -11,19 +11,19 @@
       "link": "https://www.linkedin.com/in/lilian-lee-54305777"
     },
     {
-      "name": "zhihu",
-      "icon": "fab fa-zhihu",
-      "link": "https://www.zhihu.com/people/liliansd"
-    },
-    {
       "name": "x",
       "icon": "fab fa-x-twitter",
       "link": "https://x.com/lilianlee90"
     },
     {
-      "name": "facebook",
-      "icon": "fab fa-facebook-f",
-      "link": "https://www.facebook.com/lilian.lee.50596013"
+      "name": "wechat",
+      "icon": "fab fa-weixin",
+      "link": "https://res.cloudinary.com/lilian-photos/image/upload/v1726561496/cover/wechat-qrcode-scan-to-follow-tcfun.jpg"
+    },
+    {
+      "name": "zhihu",
+      "icon": "fab fa-zhihu",
+      "link": "https://www.zhihu.com/people/liliansd"
     }
   ]
 }
