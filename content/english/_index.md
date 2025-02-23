@@ -41,10 +41,10 @@ features:
     image: "/images/undraw_conference_3n82.svg"
     content: "I contribute to the technical communication community by speaking at conferences, sharing insights at meetups or seminars, and participating in industry initiatives."
     bulletpoints:
-      - "Presented on Docs as Code pracitces at [IEEE ProComm Conference 2019](https://ieeexplore.ieee.org/document/8804485)"
-      - "Spoke on using ChatGPT in technical communication at tcworld China 2023"
-      - "Delivered multiple talks on GitHub+Markdown practices at meetups or seminars"
-      - "Contributed as an expert reviewer to UX assessment specifications for technical documentation (China)"
+      - "Presented on Docs as Code pracitces at [**IEEE ProComm** Conference 2019](https://ieeexplore.ieee.org/document/8804485)"
+      - "Spoke on using ChatGPT in technical communication at **tcworld China** 2023"
+      - "Delivered multiple talks on **GitHub+Markdown** practices at meetups or seminars"
+      - "Contributed as an **expert reviewer** to UX assessment specifications for technical documentation (China)"
     button:
       enable: true
       label: "Learn more"
