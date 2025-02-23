@@ -20,7 +20,7 @@ defaultContentLanguage = "en-us"
 title = "Lilian Lee's Blog"
 theme = "tranquilpeak"
 disqusShortname = "lilianlee"
-googleAnalytics = "UA-135070111-1"
+# googleAnalytics = "UA-135070111-1"
 paginate = 8
 canonifyurls = true
 
