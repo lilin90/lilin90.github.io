@@ -58,6 +58,11 @@ url = "/blog"
 weight = 2
 
 # [[footer]]
+# name = "Email"
+# url = "mailto:lilinup90@gmail.com"
+# weight = 3
+
+# [[footer]]
 # name = "Privacy Policy"
 # url = "/privacy-policy"
 # weight = 3

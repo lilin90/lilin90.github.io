@@ -17,7 +17,7 @@ features:
     bulletpoints:
       - "Over **8** years of experience in technical writing, specializing in [**databases**](https://docs.pingcap.com/)"
       - "Expert in **Docs as Code** practices, with strong GitHub and Markdown proficiency"
-      - "Skilled in content production workflows and documentation **project management**"
+      - "Skilled in content production workflows and documentation project management"
       - "Improving **efficiency** through process optimization, using scripts and AI tools"
       - "Enhancing **UX** by incorporating feedback, data analytics, and usability testing"
       - "Empowering engineers via technical writing **training** to improve writing skills"
