@@ -15,7 +15,7 @@ features:
     image: "/images/undraw_my-files_yynz.svg"
     content: "With deep experience in technical writing, I specialize in Docs as Code, content workflows, user experience, and docs team management."
     bulletpoints:
-      - "Over **8** years of experience in technical writing, specializing in databases"
+      - "Over **8** years of experience in technical writing, specializing in [databases](https://docs.pingcap.com/)"
       - "Expert in **Docs as Code** practices, with strong GitHub and Markdown proficiency"
       - "Skilled in content production workflows and documentation **project management**"
       - "Improving **efficiency** through process optimization, using scripts and AI tools"
