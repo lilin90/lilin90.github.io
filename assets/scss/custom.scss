@@ -12,15 +12,18 @@
     }
 }
 
-// .content {
-//     /* 默认状态 */
-//     a {
-//         color: #5555FF;
-//         text-decoration: none;
-//       }
-//     /* 悬停状态 */
-//     a:hover {
-//         color: #0969da;              /* 颜色加深 */
-//         text-decoration: underline;  /* 悬停显示下划线 */
-//     }
-// }
+// dark mode style
+.dark {
+    .content {
+    /* 默认状态 */
+    a {
+        color: #6C8AFF;
+        text-decoration: none;
+      }
+    /* 悬停状态 */
+    a:hover {
+        color: #5555FF;              /* 颜色加深 */
+        text-decoration: underline;  /* 悬停显示下划线 */
+    }
+}
+}
