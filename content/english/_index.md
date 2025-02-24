@@ -30,8 +30,8 @@ features:
     image: "/images/undraw_personal-notebook_blje.svg"
     content: "Alongside my main work, I actively engage in side projects that help contribute to the growth of the technical communication community."
     bulletpoints:
-      - "The **lilin90/awesome-technical-communication** GitHub project: a curated collection of valuable resources on various aspects of technical communication"
-      - "WeChat Subscription Account & Zhihu column 技术传播那些事儿: sharing useful knowledge on technical communication in Chinese, with over **140** posts published"
+      - "The **[lilin90/awesome-technical-communication](https://github.com/lilin90/awesome-technical-communication)** GitHub project: a curated collection of valuable resources on various aspects of technical communication"
+      - "[WeChat Subscription Account](https://res.cloudinary.com/lilian-photos/image/upload/v1726561496/cover/wechat-qrcode-scan-to-follow-tcfun.jpg) & [Zhihu column](https://www.zhihu.com/people/liliansd) 技术传播那些事儿: sharing useful knowledge on technical communication in Chinese, with over **140** posts published"
     button:
       enable: true
       label: "Check out now"
