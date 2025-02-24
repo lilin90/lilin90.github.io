@@ -1,9 +1,9 @@
 ---
 title: "Debuting at IEEE ProComm 2019: My Journey at RWTH Aachen University, Germany"
 date: 2019-08-23
-author: Lilian Lee
+author: "Lilian Lee"
 # image: "/images/lilian-at-procomm-ieee-2.png"
-image: "/images/procomm-conf-building-1920.png"
+image: "/images/blog/procomm-conf-building-1920.png"
 thumbnailImage: https://res.cloudinary.com/lilian-photos/image/upload/v1702473549/ieee-procomm-2019/IMG_7157.jpg
 # thumbnailImagePosition: "left"
 # coverImage:

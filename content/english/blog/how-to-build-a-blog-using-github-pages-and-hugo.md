@@ -1,9 +1,9 @@
 ---
 title: "How to Easily Build a Blog Using GitHub Pages and Hugo"
 date: 2019-02-17
-author: Lilian Lee
+author: "Lilian Lee"
 # image: "https://res.cloudinary.com/lilian-photos/image/upload/v1544329892/github-pages-hugo-blog/github-hugo-800.png"
-image: "/images/water.png"
+image: "/images/blog/water.png"
 thumbnailImage: https://res.cloudinary.com/lilian-photos/image/upload/v1544329892/github-pages-hugo-blog/github-hugo-800.png
 # thumbnailImagePosition: "left"
 coverImage: https://res.cloudinary.com/lilian-photos/image/upload/v1543744099/github-pages-hugo-blog/pexels-photo-907274.jpg
