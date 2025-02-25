@@ -21,6 +21,11 @@ testimonials:
     avatar: "https://avatars.githubusercontent.com/u/60599231?v=4"
     content: "Lilian is a highly experienced technical writer with deep expertise in technical communication and docs-as-code practices. Her awesome-technical-communication project provided me with invaluable guidance when I was starting out as a technical writer. She regularly shares practical tips and in-depth analyses of emerging trends, helping technical writers adopt best practices and improve efficiency."
 
+  - name: "Tom Xiong"
+    designation: "Senior Technical Writer"
+    avatar: "https://avatars.githubusercontent.com/u/41534398?v=4"
+    content: "Lilian is a seasoned technical writer passionate about sharing knowledge and mentoring beginner writers. She writes with meticulous attention to detail, consistently delivering high-quality work. As the lead of the documentation team at PingCAP, she combines a warm, approachable demeanor with exceptional leadership, fostering a collaborative environment where everyone thrives."
+
 # don't create a separate page
 _build:
   render: "never"
