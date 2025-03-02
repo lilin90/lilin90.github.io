@@ -16,7 +16,8 @@ testimonials:
 
   - name: "Grace Cai"
     designation: "Senior Technical Writer"
-    avatar: "https://avatars.githubusercontent.com/u/79440533?v=4"
+    avatar: "https://media.licdn.com/dms/image/v2/C5603AQEzay7k-u1F_g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1603436905908?e=1746662400&v=beta&t=-GCcJ4q3wV7q2GQR_2u6qx-i_e-jAe5yXVLMy3-9OAo"
+#   avatar: "https://avatars.githubusercontent.com/u/79440533?v=4"
     content: "Lilian is an exceptional technical writer who excels at creating various types of documents and blogs, with expertise in docs-as-code practices. Driven by a genuine passion for learning and sharing knowledge in technical communication, her articles are a must-read for both beginners and seasoned professionals, offering practical insights and valuable guidance."
 
   - name: "Faxin Hou"
