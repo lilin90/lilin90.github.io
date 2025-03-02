@@ -32,3 +32,14 @@ blockquote {
     max-height: 230px; /* 最大高度，内容少时自动收缩 */
     overflow-y: auto;
 }
+
+/* 目录悬浮动效 */
+.sticky-toc {
+    transition: transform 0.3s ease;
+}
+/* 移动端隐藏目录 */
+@media (max-width: 1024px) {
+    .absolute.left-0 {
+      display: none;
+    }
+}
