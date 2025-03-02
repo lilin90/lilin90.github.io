@@ -5,6 +5,15 @@ description: "The people I work with inspire me to keep growing and push the bou
 
 # Testimonials
 testimonials:
+  - name: "Queeny Jin"
+    designation: "Head of Marketing, DevRel, Docs"
+    avatar: "https://media.licdn.com/dms/image/v2/D5603AQExzg1vimSUmA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1711520878404?e=1746662400&v=beta&t=OqGPoHt9nVv9jD7B8b1tdAyrRO6_LUrY0owhIOLNuLE"
+    content: "<p>I had the pleasure to work with Lilian from 2017 to 2022 and I never ceased to be amazed by Lilian's positive and can-do attitude, quick-learning skills, detail-oriented approach when it comes to technical communication. Her tenacity and relentless sharing also impressed me greatly.</p>
+    <br>
+    <p>Lilian started as an individual contributor and was soon promoted to be a team lead. As a team lead, Lilian excelled at motivating her colleagues, providing clear direction, and fostering an environment of collaboration and growth. She demonstrated exceptional ability to prioritize tasks, delegate responsibilities effectively, and ensure projects were completed on time while maintaining high quality standards. Her leadership style balanced empathy with accountability, allowing team members to develop their skills while meeting organizational goals.</p>
+    <br>
+    <p>Lilian consistently demonstrated exceptional teamwork abilities and brought innovative solutions to complex problems. Her contributions were invaluable to our company, and her ability to collaborate effectively across departments made her a true asset to the team. I would welcome the opportunity to work with her again in the future.</p>"
+
   - name: "Grace Cai"
     designation: "Senior Technical Writer"
     avatar: "https://avatars.githubusercontent.com/u/79440533?v=4"
