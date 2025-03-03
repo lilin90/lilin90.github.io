@@ -6,7 +6,7 @@ description: "The people I work with inspire me to keep growing and push the bou
 # Testimonials
 testimonials:
   - name: "Queeny Jin"
-    designation: "Head of Marketing, DevRel, Docs"
+    designation: "Head of Marketing and DevRel"
     avatar: "https://media.licdn.com/dms/image/v2/D5603AQExzg1vimSUmA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1711520878404?e=1746662400&v=beta&t=OqGPoHt9nVv9jD7B8b1tdAyrRO6_LUrY0owhIOLNuLE"
     content: "<p>I had the pleasure to work with Lilian from 2017 to 2022 and I never ceased to be amazed by Lilian's positive and can-do attitude, quick-learning skills, detail-oriented approach when it comes to technical communication. Her tenacity and relentless sharing also impressed me greatly.</p>
     <br>

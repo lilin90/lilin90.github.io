@@ -43,3 +43,7 @@ blockquote {
       display: none;
     }
 }
+
+html {
+    scroll-padding-top: 86px; /* 根据导航栏高度调整（示例为 80px） */
+}
