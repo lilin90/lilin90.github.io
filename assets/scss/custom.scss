@@ -39,7 +39,7 @@ blockquote {
 }
 /* 移动端隐藏目录 */
 @media (max-width: 1024px) {
-    .absolute.left-0 {
+    .toc.left-0 {
       display: none;
     }
 }
