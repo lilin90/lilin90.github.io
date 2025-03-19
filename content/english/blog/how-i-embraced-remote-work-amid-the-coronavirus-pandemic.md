@@ -11,12 +11,12 @@ categories: ["Work"]
 tags: ["Life"]
 ---
 <!--![](https://res.cloudinary.com/lilian-photos/image/upload/v1618026887/blog-images/group_chat-1.png)-->
-**Remote work** becomes popular all over the world in the context of the **coronavirus** pandemic [(COVID-19)](https://www.google.com/covid19/#page-top). I've worked remotely for **three months** since Feb 3, 2020. Before this, I only WFH occasionally, each time within three days. So it's the first time that I WFH for a relatively long period of time.
+**Remote work** becomes popular all over the world in the context of the **coronavirus** pandemic [(COVID-19)](https://en.wikipedia.org/wiki/COVID-19). I've worked remotely for **three months** since Feb 3, 2020. Before this, I only WFH occasionally, each time within three days. So it's the first time that I WFH for a relatively long period of time.
 
 <!--![](https://cdn.pixabay.com/photo/2020/04/04/16/53/stay-home-5003067_1280.jpg)-->
 <!--![](https://res.cloudinary.com/lilian-photos/image/upload/v1589618803/blog-images/group_chat-1.png)-->
 
-May 18, 2020 is the day that all staff at [PingCAP](https://pingcap.com) (the company that I've been working for since Aug 3, 2017) can return back to the offices. This means the end of my remote work. The last few months have been **an unusual experience** to me, during which I got used to working remotely in a productive and happy way. In this post, I'd like to **share some practices and thoughts about remote work.**
+May 18, 2020 is the day that all staff at [PingCAP](https://www.pingcap.com/?from=en) (the company that I've been working for since Aug 3, 2017) can return back to the offices. This means the end of my remote work. The last few months have been **an unusual experience** to me, during which I got used to working remotely in a productive and happy way. In this post, I'd like to **share some practices and thoughts about remote work.**
 
 <!--The employees have been divided into two groups on March 9, and take turns to go to the office, but employees can still choose to WFH.-->
 <!-- toc -->
@@ -63,7 +63,7 @@ For example, using [GitHub](https://github.com/) for hosting and reviewing code,
 
 **Effective team communication can keep one from feeling mentally lonely, though physically alone.** The daily stand-up has been working well in our team.
 
-When the coronavirus still spread fast, all coworkers in our team just stayed and worked at home, and probably with some concerns or worries. On the first day of remote work, we even had one [newcomer (Ran)](https://ran-huang.github.io/2020/03/02/hitchhikers-guide-to-pingcap.html) joining, and I'm her mentor. Without regular communication, team members tended to feel isolated, having no idea what coworkers were doing and what was going on in the whole team.
+When the coronavirus still spread fast, all coworkers in our team just stayed and worked at home, and probably with some concerns or worries. On the first day of remote work, we even had one [newcomer (Ran)](https://blog.ranh.me/2020-1-the-hitchhikers-guide-to-pingcap/) joining, and I'm her mentor. Without regular communication, team members tended to feel isolated, having no idea what coworkers were doing and what was going on in the whole team.
 
 Soon, our team introduced a daily stand-up bot [(Standup Alice)](https://standupalice.com/) in Slack. This bot served as a daily reminder of filling in a stand-up list, and a information collecting and delivery hub. Each team member could see the progress and next steps by all the others in the team. In addition, we shared blockers in this stand-up, making them easier to get resolved with the help of or advice from other team members.
 
