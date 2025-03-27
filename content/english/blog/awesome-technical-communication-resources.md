@@ -15,6 +15,15 @@ As a Senior Technical Writer, I’ve always been passionate about curating resou
 
 [Awesome Technical Communication](https://github.com/lilin90/awesome-technical-communication) is an open-source project hosted on GitHub, designed to provide a curated list of valuable resources on various aspects of technical communication. Whether you’re an experienced technical writer, a budding UX/UI designer, a community manager, a developer who frequently writes documentation, or simply someone interested in the intersection of technology and communication, you’ll find something useful here.
 
+[![Stargazers over time](https://starchart.cc/lilin90/awesome-technical-communication.svg)](https://starchart.cc/lilin90/awesome-technical-communication)
+
+<a href="https://next.ossinsight.io/widgets/official/analyze-repo-stars-map?repo_id=244162340&activity=stars" target="_blank" style="display: block" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/analyze-repo-stars-map/thumbnail.png?repo_id=244162340&activity=stars&image_size=auto&color_scheme=dark" width="721" height="auto">
+    <img alt="Star Geographical Distribution of lilin90/awesome-technical-communication" src="https://next.ossinsight.io/widgets/official/analyze-repo-stars-map/thumbnail.png?repo_id=244162340&activity=stars&image_size=auto&color_scheme=light" width="721" height="auto">
+  </picture>
+</a>
+
 ## What’s inside
 
 The [Awesome Technical Communication](https://github.com/lilin90/awesome-technical-communication) project brings together a carefully selected list of resources spanning a wide range of topics. Here’s a quick overview of what you’ll find:
