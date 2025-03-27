@@ -1,5 +1,6 @@
 ---
-title: "Unlocking Excellence in Technical Communication: Discover Awesome Resources"
+title: "Awesome Technical Communication Resources You Should Never Miss"
+#title: "Unlocking Excellence in Technical Communication: Discover Awesome Resources"
 meta_title: "An Open-Source Repository of Awesome Resources on Technical Communication"
 description: "A curated list of awesome resources about technical communication."
 summary: "I’m excited to share an open-source GitHub project I started in 2020, a curated list of awesome resources on technical communication."
