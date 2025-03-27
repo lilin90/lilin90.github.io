@@ -47,3 +47,10 @@ blockquote {
 html {
     scroll-padding-top: 86px; /* 根据导航栏高度调整（示例为 80px） */
 }
+
+ol {
+    padding-left: 1em; /* 默认一级列表缩进 2字符 */
+  }
+  ol ol {
+    padding-left: 1em; /* 每级子列表额外缩进 2字符 */
+  }
