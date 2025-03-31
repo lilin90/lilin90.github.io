@@ -1,6 +1,5 @@
 ---
 title: "How to Write Great Release Notes That Users Love"
-#title: "Unlocking Excellence in Technical Communication: Discover Awesome Resources"
 meta_title: "How to Write Great Release Notes That Users Love"
 description: "Practical templates for writing clear, user-centered release notes for new features and bug fixes."
 summary: "I’ll briefly introduce release notes, and share practical templates for writing clear, user-centered release notes for new features and bug fixes, helping you communicate product updates with impact."
