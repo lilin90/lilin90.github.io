@@ -19,9 +19,7 @@ tags:
 summary: "My first visit to Germany and experience at IEEE International Professional Communication Conference, with a bunch of memorable photos."
 ---
 
-From July 23rd to 26th, 2019, the [IEEE International Professional Communication Conference (ProComm) 2019](https://attend.ieee.org/procomm/conference/), hosted by the IEEE Professional Communication Society (PCS), took place at RWTH Aachen University in Germany.
-
-The theme was "**professional communication in a digitalized world**", but this conference also covers various aspects of communication within professional and technical contexts.
+From July 23rd to 26th, 2019, the [IEEE International Professional Communication Conference (ProComm) 2019](https://attend.ieee.org/procomm/conference/), hosted by the IEEE Professional Communication Society (PCS), took place at RWTH Aachen University in Germany. The theme was "**professional communication in a digitalized world**", but this conference also covers various aspects of communication within professional and technical contexts.
 
 A delegation of Chinese academics and professionals in the field of technical communication attended this international conference. [PingCAP](https://www.pingcap.com/), a database startup that I have been working for, was invited by lecturer Zhijun Gao from Peking University (program chair) to attend this conference. So I had the privilege to share insights into the documentation development practices of a tech startup, with my experience in [TiDB database documentation](https://docs.pingcap.com/).
 
