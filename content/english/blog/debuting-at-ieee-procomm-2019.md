@@ -1,5 +1,5 @@
 ---
-title: "Debuting at IEEE ProComm 2019: My Journey at RWTH Aachen University, Germany"
+title: "Presenting Open Source Documentation Practices at IEEE ProComm 2019"
 date: 2019-08-23
 author: "Lilian Lee"
 # image: "/images/lilian-at-procomm-ieee-2.png"
