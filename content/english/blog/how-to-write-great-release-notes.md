@@ -192,3 +192,9 @@ By following this template, bug fix release notes can effectively communicate cr
 ## Final thoughts
 
 By applying the templates and practices shared in this post, you can make your release notes more valuable and impactful. If you’re also involved in preparing release notes and have experiences to share, feel free to leave a comment. I’d love to exchange insights!
+
+<p style="color: #808080;">If you’d like to read this content in Chinese, check out the following articles:</p>
+
+- [如何理解产品的 Release Notes](https://zhuanlan.zhihu.com/p/688154830)
+- [如何写好产品新特性的 Release Notes](https://zhuanlan.zhihu.com/p/688754038)
+- [如何写好问题修复的 Release Notes](https://zhuanlan.zhihu.com/p/689945445)
