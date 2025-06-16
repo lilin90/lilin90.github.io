@@ -4,7 +4,8 @@ meta_title: "How to Write Great Release Notes That Users Love"
 description: "Practical templates for writing clear, user-centered release notes for new features and bug fixes."
 summary: "A practical guide to writing effective release notes, with ready-to-use templates for announcing features and documenting bug fixes. Learn to communicate product updates with clarity and impact."
 date: 2024-04-20
-image: "https://res.cloudinary.com/lilian-photos/image/upload/v1743427957/blog-images/blackthorn_1920.png"
+image: "/images/blog/blackthorn.png"
+# image: "https://res.cloudinary.com/lilian-photos/image/upload/v1743427957/blog-images/blackthorn_1920.png"
 categories: ["Tech Comm"]
 author: "Lilian Lee"
 tags: ["Release Notes"]
