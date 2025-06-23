@@ -17,11 +17,11 @@ In fact, in Chinese, our role is often translated as "Technical Documentation En
 
 This book, boasting an impressive [4.25 rating on Goodreads](https://www.goodreads.com/en/book/show/25238425) as of June 12, 2025, is a worthwhile read that will likely spark fresh ideas, especially in the AI-driven era. In this post, I'll highlight **five key insights** from the book and explore them through the lens of a Technical Writer:
 
-- Focus on high-leverage activities
-- Relentlessly automate mechanical tasks
-- Measure and instrument as much as possible
-- Adopt a growth mindset
-- Balance quality with pragmatism
+1. Focus on high-leverage activities
+2. Relentlessly automate mechanical tasks
+3. Measure and instrument as much as possible
+4. Adopt a growth mindset
+5. Balance quality with pragmatism
 
 ![The Effective Engineer's Goodreads rating](https://res.cloudinary.com/lilian-photos/image/upload/v1750686598/blog-images/the-effective-engineer-goodreads-rating.png)
 
@@ -61,7 +61,7 @@ If you find yourself repeating a task often, that's a good sign it might be wort
 
 In the daily work of Technical Writers, there are plenty of repetitive and mechanical tasks. Over the years, the documentation team I help lead has introduced automation at many stages of the documentation workflow. And with AI continuing to evolve, there's even more we can explore.
 
-Our automation toolkit includes shell scripts, Python scripts, GitHub Actions, browser extensions, and custom-built tools. Some of these are open source—feel free to check them out:
+Our automation toolkit includes shell scripts, Python scripts, GitHub Actions, browser extensions, and custom-built tools. Some of these are open source — feel free to check them out:
 
 - [GitHub: pingcap/docs/scripts](https://github.com/pingcap/docs/tree/master/scripts)
 - [GitHub: pingcap/docs/.github/workflows](https://github.com/pingcap/docs/tree/master/.github/workflows)
@@ -72,7 +72,7 @@ Time and human resources are always limited, and continuously driving automation
 
 Management guru Peter Drucker points out in [*The Effective Executive*](https://www.goodreads.com/book/show/48019) that "If you can't measure it, you can't improve it." That's why picking the right metrics is crucial.
 
-The right metrics act as a north star—they help align the team and keep everyone moving in the same direction. Unlike some roles, quantifying the direct impact of documentation can be challenging, making the deliberate selection of metrics even more crucial.
+The right metrics act as a north star — they help align the team and keep everyone moving in the same direction. Unlike some roles, quantifying the direct impact of documentation can be challenging, making the deliberate selection of metrics even more crucial.
 
 When deciding which metrics to use, Edmond suggests choosing ones that maximize impact, are actionable, and are responsive yet robust:
 
@@ -103,11 +103,9 @@ This growth can happen both inside and outside of work. For Technical Writers:
 - **On the job**: Take on different types of projects, learn from experienced teammates, or study internal resources.
 - **Outside of work**: Read industry books, follow bloggers and conference talks, learn a programming language, or explore new hobbies.
 
-    In fact, the book notes that even hobbies unrelated to engineering can sharpen your skills.
+    In fact, the book notes that even hobbies unrelated to engineering can sharpen your skills. “Research suggests that creativity stems from combining existing and often disparate ideas in new ways. Projects in seemingly orthogonal areas like drawing and writing can have benefits that flow over to help you be a better engineer.”
 
-    > Research suggests that creativity stems from combining existing and often disparate ideas in new ways. Projects in seemingly orthogonal areas like drawing and writing can have benefits that flow over to help you be a better engineer.
-
-One idea that stood out to me was Google's famous "20% time" idea, where engineers spend the equivalent of one day a week on a side project that could benefit the company.
+One idea that stood out to me was **Google's famous "20% time"**, where engineers spend the equivalent of one day a week on a side project that could benefit the company.
 
 This "20% time" can be used to dive deeper into your area of expertise and tools, or to develop skills in "adjacent disciplines". Adjacent disciplines are areas related to your core role, where gaining more knowledge can make you more self-sufficient and effective.
 
@@ -115,7 +113,7 @@ For Technical Writers, adjacent disciplines include programming, product managem
 
 ## 5. Balance quality with pragmatism
 
-> Ultimately, software quality boils down to a matter of tradeoffs, and there's no one universal rule for how to do things.
+"Ultimately, **software quality boils down to a matter of tradeoffs**, and there's no one universal rule for how to do things."
 
 Strictly insisting on "the right way" to build something can paralyze discussions about tradeoffs and alternative solutions. A more effective approach is to **adopt a pragmatic mindset** — thinking in terms of what does and doesn't work for achieving our goals — as a basis for evaluating quality.
 
@@ -128,7 +126,7 @@ The same applies to documentation. As Technical Writers, we want every piece of 
 
 Relaxing standards doesn't mean abandoning quality. We still need to maintain baseline expectations. Otherwise, we risk hurting user trust and accumulating documentation debt that's hard to fix later due to complexity and time constraints.
 
-> Google holds Fixit days like **Docs Fixit**, Customer Happiness Fixit, or Internationalization Fixit—where engineers are encouraged to tackle specific themes—as a lightweight mechanism to pay off technical debt.
+> Google holds Fixit days like **Docs Fixit**, Customer Happiness Fixit, or Internationalization Fixit — where engineers are encouraged to tackle specific themes — as a lightweight mechanism to pay off technical debt.
 
 ## Conclusion
 
