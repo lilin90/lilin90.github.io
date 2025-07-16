@@ -7,7 +7,7 @@ description: "The people I work with inspire me to keep growing and push the bou
 testimonials:
   - name: "Queeny Jin"
     designation: "Head of Marketing and DevRel"
-    avatar: "https://media.licdn.com/dms/image/v2/D5603AQExzg1vimSUmA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1711520878404?e=1752105600&v=beta&t=b-XbtBSQ8RC2xJoiciCrd3BiFE1yCwzxMKEYUo9s-8M"
+    avatar: "https://avatars.githubusercontent.com/u/19528243?v=4"
     content: "<p>I had the pleasure to work with Lilian from 2017 to 2022 and I never ceased to be amazed by Lilian's positive and can-do attitude, quick-learning skills, detail-oriented approach when it comes to technical communication. Her tenacity and relentless sharing also impressed me greatly.</p>
     <br>
     <p>Lilian started as an individual contributor and was soon promoted to be a team lead. As a team lead, Lilian excelled at motivating her colleagues, providing clear direction, and fostering an environment of collaboration and growth. She demonstrated exceptional ability to prioritize tasks, delegate responsibilities effectively, and ensure projects were completed on time while maintaining high quality standards. Her leadership style balanced empathy with accountability, allowing team members to develop their skills while meeting organizational goals.</p>
@@ -16,7 +16,7 @@ testimonials:
 
   - name: "Grace Cai"
     designation: "Senior Technical Writer"
-    avatar: "https://media.licdn.com/dms/image/v2/C5603AQEzay7k-u1F_g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1603436905908?e=1752105600&v=beta&t=VEDY41NTdlc0Yx9A9BaaVsq8KwZvcKB2NTJ7y0ufcE4"
+    avatar: "https://avatars.githubusercontent.com/u/79440533?v=4"
 #   avatar: "https://avatars.githubusercontent.com/u/79440533?v=4"
     content: "Lilian is an exceptional technical writer who excels at creating various types of documents and blogs, with expertise in docs-as-code practices. Driven by a genuine passion for learning and sharing knowledge in technical communication, her articles are a must-read for both beginners and seasoned professionals, offering practical insights and valuable guidance."
 
@@ -38,7 +38,7 @@ testimonials:
 
   - name: "Calvin Weng"
     designation: "Lead Technical Writer"
-    avatar: "https://media.licdn.com/dms/image/v2/C5603AQEwDxUOJ9OAkQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516952281896?e=1752105600&v=beta&t=Dua9T54Idnq35Ianlyu8uYz9OFrzYg8a2hSczU6WK2Q"
+    avatar: "https://avatars.githubusercontent.com/u/2503903?v=4"
     content: "It was a pleasure working with someone so dedicated and skilled like Lilian. She is truly an outstanding technical writer and documentation leader. Her approachable demeanor fosters collaboration, while her strategic mindset elevates every project she touches. Her relentless pursuit of excellence made her a valuable asset to any team she works in."
 
 # don't create a separate page
