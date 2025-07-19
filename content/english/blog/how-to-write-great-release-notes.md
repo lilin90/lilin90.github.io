@@ -30,7 +30,7 @@ Delivering high-quality, user-friendly release notes requires significant effort
 
 **Release notes** are documents that describe changes in a product release. These changes typically include new features, compatibility changes, deprecated or removed features, performance enhancements, general improvements, and bug fixes.
 
-### The Value of Release Notes
+### The value of release notes
 
 Well-crafted release notes serve multiple purposes, benefiting both external users and internal teams.
 
