@@ -1,7 +1,7 @@
 ---
 # Banner
 banner:
-  title: "Embrace Changes, Explore Possibilities"
+  title: "Embrace Changes, Unlock Possibilities"
   content: "Hi, I am Lilian, a Senior Technical Writer dedicated to bridging the gap between products and users."
   image: "/images/undraw_designer-life.svg"
   button:
