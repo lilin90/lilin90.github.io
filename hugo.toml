@@ -27,7 +27,7 @@ shortname = 'lilianlee' # we use disqus to show comments in blog posts . To inst
 
 ########################## Permalinks ############################
 [permalinks.page]
-"pages" = "/:slugorfilename/"
+"pages" = "/:slugorcontentbasename/"
 
 
 ########################## Pagination ############################

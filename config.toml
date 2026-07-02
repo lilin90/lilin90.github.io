@@ -16,7 +16,7 @@
 
 baseURL = "https://lilianlee.me"
 languageCode = "en-us"
-defaultContentLanguage = "en-us"
+defaultContentLanguage = "en"
 title = "Lilian Lee's Blog"
 theme = "tranquilpeak"
 disqusShortname = "lilianlee"

@@ -28,18 +28,264 @@
 }
 }
 
+.section-sm ul li a {
+    color: #0969da;
+    text-decoration: none;
+}
+
+.section-sm ul li a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.dark .section-sm ul li a {
+    color: #6C8AFF;
+}
+
+.dark .section-sm ul li a:hover {
+    color: #5555FF;
+    text-decoration: underline;
+}
+
 blockquote {
     max-height: 230px; /* 最大高度，内容少时自动收缩 */
     overflow-y: auto;
 }
 
-/* 目录悬浮动效 */
-.sticky-toc {
-    transition: transform 0.3s ease;
+.testimonial-slider {
+    .swiper-wrapper {
+        align-items: stretch;
+    }
+
+    .swiper-slide {
+        display: flex;
+        height: auto;
+    }
+
+    .swiper-slide > div {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    blockquote {
+        flex: 1;
+    }
+
+    blockquote + div {
+        margin-top: auto;
+        padding-top: 2.75rem;
+    }
 }
+
+.article-share {
+    .article-share-label {
+        margin: 0 0 10px 2px;
+        color: #64748b;
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        line-height: 1.2;
+        text-transform: uppercase;
+    }
+
+    .article-share-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+
+        .share-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            margin: 0;
+            border: 1px solid rgba(148, 163, 184, 0.24);
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.82);
+            box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+            backdrop-filter: blur(12px);
+            color: #475569;
+            line-height: 1;
+            transition: background-color 0.18s ease, border-color 0.18s ease, color 0.18s ease, transform 0.18s ease, box-shadow 0.18s ease;
+
+            &:hover {
+                border-color: rgba(9, 105, 218, 0.25);
+                background: rgba(9, 105, 218, 0.09);
+                box-shadow: 0 16px 36px rgba(15, 23, 42, 0.12);
+                color: #0969da;
+                transform: translateY(-2px);
+            }
+        }
+
+        .share-icon {
+            height: auto;
+
+            svg {
+                width: 16px;
+                height: 16px;
+                fill: currentColor;
+            }
+        }
+    }
+}
+
+.toc {
+    .sticky {
+        scrollbar-width: thin;
+        scrollbar-color: rgba(100, 116, 139, 0.35) transparent;
+    }
+
+    .table-of-content.blog {
+        margin: 0;
+        padding: 18px 18px 16px;
+        border: 1px solid rgba(148, 163, 184, 0.24);
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.82);
+        box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+        backdrop-filter: blur(12px);
+
+        summary {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 14px !important;
+            padding: 0 0 12px;
+            border-bottom: 1px solid rgba(148, 163, 184, 0.22);
+            background: transparent;
+            color: #0f172a;
+            cursor: default;
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            line-height: 1.3;
+            text-transform: uppercase;
+
+            &::-webkit-details-marker {
+                display: none;
+            }
+
+            &::marker {
+                content: "";
+            }
+
+            &::before {
+                content: "";
+                width: 6px;
+                height: 18px;
+                border-radius: 999px;
+                background: #0969da;
+            }
+        }
+
+        #TableOfContents {
+            padding: 0;
+            background: transparent;
+
+            ul {
+                margin: 0;
+                padding-left: 0;
+                list-style: none;
+
+                ul {
+                    margin-top: 6px;
+                    padding-left: 12px;
+                    border-left: 1px solid rgba(148, 163, 184, 0.24);
+                }
+            }
+
+            li {
+                margin: 0 0 4px;
+
+                &::before {
+                    display: none;
+                }
+            }
+
+            a {
+                display: block;
+                padding: 7px 10px;
+                border-radius: 8px;
+                color: #475569 !important;
+                font-size: 0.88rem;
+                line-height: 1.35;
+                text-decoration: none;
+                transition: background-color 0.18s ease, color 0.18s ease, transform 0.18s ease;
+
+                &:hover {
+                    background: rgba(9, 105, 218, 0.09);
+                    color: #0969da !important;
+                    text-decoration: none;
+                    transform: translateX(2px);
+                }
+            }
+        }
+    }
+}
+
+.dark {
+    .article-share {
+        .article-share-label {
+            color: #94a3b8;
+        }
+
+        .article-share-icons {
+            .share-link {
+                border-color: rgba(148, 163, 184, 0.2);
+                background: rgba(15, 23, 42, 0.72);
+                box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+                color: #cbd5e1;
+
+                &:hover {
+                    border-color: rgba(108, 138, 255, 0.28);
+                    background: rgba(108, 138, 255, 0.14);
+                    color: #8EA3FF;
+                }
+            }
+        }
+    }
+
+    .toc {
+        .table-of-content.blog {
+            border-color: rgba(148, 163, 184, 0.2);
+            background: rgba(15, 23, 42, 0.72);
+            box-shadow: 0 18px 45px rgba(0, 0, 0, 0.22);
+
+            summary {
+                border-bottom-color: rgba(148, 163, 184, 0.18);
+                color: #f8fafc;
+
+                &::before {
+                    background: #6C8AFF;
+                }
+            }
+
+            #TableOfContents {
+                background: transparent;
+
+                ul ul {
+                    border-left-color: rgba(148, 163, 184, 0.2);
+                }
+
+                a {
+                    color: #cbd5e1 !important;
+
+                    &:hover {
+                        background: rgba(108, 138, 255, 0.14);
+                        color: #8EA3FF !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
 /* 移动端隐藏目录 */
 @media (max-width: 1024px) {
-    .toc.left-0 {
+    .toc,
+    .article-share {
       display: none;
     }
 }

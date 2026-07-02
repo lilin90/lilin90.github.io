@@ -29,7 +29,7 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 custom_script = ""
 # copyright
 # copyright = "Designed & Developed by [Zeon Studio](https://zeon.studio)"
-copyright = "© 2025 Lilian Lee. All Rights Reserved."
+copyright = "© 2026 Lilian Lee. All Rights Reserved."
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
