@@ -220,6 +220,13 @@ blockquote {
                     text-decoration: none;
                     transform: translateX(2px);
                 }
+
+                &.is-active {
+                    background: rgba(9, 105, 218, 0.12);
+                    color: #0969da !important;
+                    font-weight: 600;
+                    text-decoration: none;
+                }
             }
         }
     }
@@ -274,6 +281,11 @@ blockquote {
 
                     &:hover {
                         background: rgba(108, 138, 255, 0.14);
+                        color: #8EA3FF !important;
+                    }
+
+                    &.is-active {
+                        background: rgba(108, 138, 255, 0.18);
                         color: #8EA3FF !important;
                     }
                 }
