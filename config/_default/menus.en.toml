@@ -16,6 +16,53 @@ name = "Blog"
 url = "/blog"
 weight = 3
 
+[[main]]
+name = "Hobbies"
+url = "/hobbies"
+weight = 4
+
+[[main]]
+parent = "Hobbies"
+name = "Baduanjin"
+url = "/hobbies/baduanjin"
+weight = 1
+
+[[main]]
+parent = "Hobbies"
+name = "Films"
+url = "/hobbies/films"
+weight = 2
+
+[[main]]
+parent = "Hobbies"
+name = "Journaling"
+url = "/hobbies/journaling"
+weight = 3
+
+[[main]]
+parent = "Hobbies"
+name = "Photography"
+url = "/hobbies/photography"
+weight = 4
+
+[[main]]
+parent = "Hobbies"
+name = "Reading"
+url = "/hobbies/reading"
+weight = 5
+
+[[main]]
+parent = "Hobbies"
+name = "Travel"
+url = "/hobbies/travel"
+weight = 6
+
+[[main]]
+parent = "Hobbies"
+name = "Writing"
+url = "/hobbies/writing"
+weight = 7
+
 # [[main]]
 # name = "Pages"
 # weight = 4
