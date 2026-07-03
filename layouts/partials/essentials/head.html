@@ -8,6 +8,30 @@
 <!-- theme meta -->
 <meta name="theme-name" content="hugoplate" />
 
+<script>
+  (function () {
+    var darkMode = false;
+
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      darkMode = true;
+    }
+
+    try {
+      if (localStorage.getItem("theme") === "dark") {
+        darkMode = true;
+      } else if (localStorage.getItem("theme") === "light") {
+        darkMode = false;
+      }
+    } catch (e) {}
+
+    if (darkMode) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  })();
+</script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css" />
 
