@@ -128,8 +128,8 @@ body > .fixed.left-0.top-0.z-50.w-\[30px\] {
 .theme-switcher label > span:not(.sr-only) {
     left: 0 !important;
     transform: translateX(0);
-    transition-property: transform, background-color;
-    will-change: transform;
+    transition: none !important;
+    will-change: auto;
 }
 
 .theme-switcher input:checked + label > span:not(.sr-only) {
