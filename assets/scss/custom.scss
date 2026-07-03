@@ -108,6 +108,35 @@ body > .fixed.left-0.top-0.z-50.w-\[30px\] {
     display: none;
 }
 
+.theme-switcher,
+.theme-switcher.hidden {
+    display: inline-flex;
+    align-items: center;
+    flex: 0 0 2.5rem;
+    width: 2.5rem;
+    height: 1.5rem;
+}
+
+.theme-switcher.hidden {
+    visibility: hidden;
+}
+
+.theme-switcher label {
+    flex: 0 0 2.5rem;
+}
+
+.theme-switcher label > span:not(.sr-only) {
+    left: 0 !important;
+    transform: translateX(0);
+    transition-property: transform, background-color;
+    will-change: transform;
+}
+
+.theme-switcher input:checked + label > span:not(.sr-only) {
+    left: 0 !important;
+    transform: translateX(1rem);
+}
+
 blockquote {
     max-height: 230px; /* 最大高度，内容少时自动收缩 */
     overflow-y: auto;
