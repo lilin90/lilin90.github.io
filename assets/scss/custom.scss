@@ -52,6 +52,16 @@
     text-decoration: underline;
 }
 
+.nav-link:hover,
+.nav-dropdown-link:hover {
+    color: #5555FF;
+}
+
+.dark .nav-link:hover,
+.dark .nav-dropdown-link:hover {
+    color: #6C8AFF;
+}
+
 blockquote {
     max-height: 230px; /* 最大高度，内容少时自动收缩 */
     overflow-y: auto;
