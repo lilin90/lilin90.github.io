@@ -15,6 +15,19 @@
         font-size: 16px !important;
         line-height: 1.75 !important;
     }
+
+    p:has(> img:only-child),
+    p:has(> a:only-child > img:only-child) {
+        margin-top: 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+
+    p:has(> img:only-child) > img,
+    p:has(> a:only-child > img:only-child) img {
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }
 
 // dark mode style
