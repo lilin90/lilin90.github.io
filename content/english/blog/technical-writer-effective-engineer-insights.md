@@ -103,7 +103,7 @@ This growth can happen both inside and outside of work. For Technical Writers:
 - **On the job**: Take on different types of projects, learn from experienced teammates, or study internal resources.
 - **Outside of work**: Read industry books, follow bloggers and conference talks, learn a programming language, or explore new hobbies.
 
-    In fact, the book notes that even hobbies unrelated to engineering can sharpen your skills. “Research suggests that creativity stems from combining existing and often disparate ideas in new ways. Projects in seemingly orthogonal areas like drawing and writing can have benefits that flow over to help you be a better engineer.”
+    In fact, the book notes that even hobbies unrelated to engineering can sharpen your skills. “Research suggests that creativity stems from combining existing and often disparate ideas in new ways. Projects in seemingly orthogonal areas like drawing and writing can have benefits that flow over to help you be a better engineer.”
 
 One idea that stood out to me was **Google's famous "20% time"**, where engineers spend the equivalent of one day a week on a side project that could benefit the company.
 

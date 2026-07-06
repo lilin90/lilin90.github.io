@@ -42,7 +42,15 @@
   integrity="{{ $scriptsLazy.Data.Integrity }}"
   src="{{ $scriptsLazy.RelPermalink }}"></script>
 
-  <script src="{{ "js/copy-code.js" | relURL }}"></script>
+  {{ $copyCodeScript := resources.Get "js/copy-code.js" }}
+  {{ if hugo.IsProduction }}
+    {{ $copyCodeScript = $copyCodeScript | minify }}
+  {{ end }}
+  {{ $copyCodeScript = $copyCodeScript | fingerprint }}
+  <script
+    crossorigin="anonymous"
+    {{ with $copyCodeScript.Data.Integrity }}integrity="{{ . }}"{{ end }}
+    src="{{ $copyCodeScript.RelPermalink }}"></script>
 
   <script src="{{ "js/progressbar.js" | relURL }}"></script>
 

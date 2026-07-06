@@ -137,9 +137,322 @@ body > .fixed.left-0.top-0.z-50.w-\[30px\] {
     transform: translateX(1rem);
 }
 
-blockquote {
-    max-height: 230px; /* 最大高度，内容少时自动收缩 */
-    overflow-y: auto;
+.content .code-block {
+    position: relative;
+    margin: 1.75rem 0;
+    border: 1px solid rgba(148, 163, 184, 0.28);
+    border-radius: 12px;
+    background: #f6f8fa;
+    box-shadow: 0 14px 32px rgba(15, 23, 42, 0.06);
+    overflow: hidden;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        width: 5rem;
+        background: linear-gradient(90deg, rgba(246, 248, 250, 0) 0%, #f6f8fa 20%);
+        pointer-events: none;
+    }
+
+    pre {
+        margin: 0;
+        padding: 1.25rem 1.5rem;
+        border-radius: 0;
+        background: transparent !important;
+        color: #0f172a;
+    }
+
+    pre code {
+        display: block;
+        padding: 0;
+        background: transparent;
+        border: 0;
+        color: inherit;
+    }
+
+    &.is-wrapped {
+        &::after {
+            opacity: 0;
+        }
+
+        .overflow-x-auto {
+            overflow-x: visible;
+        }
+
+        .code-block-controls {
+            position: relative;
+            top: auto;
+            right: auto;
+            float: right;
+            margin: 0.75rem 0.75rem 0.2rem 0.35rem;
+        }
+
+        pre,
+        pre code,
+        pre code span {
+            white-space: pre-wrap !important;
+            overflow-wrap: anywhere;
+            word-break: break-word;
+        }
+
+        pre code > span {
+            display: block !important;
+        }
+    }
+
+    pre code::before,
+    pre code::after,
+    code::before,
+    code::after {
+        display: none !important;
+        content: none !important;
+    }
+
+    .code-block-controls {
+        position: absolute;
+        top: 0.75rem;
+        right: 0.75rem;
+        z-index: 2;
+        display: flex;
+        gap: 0.2rem;
+        align-items: center;
+    }
+
+    .code-action-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 1.875rem;
+        height: 1.875rem;
+        border-radius: 8px;
+        border: 0;
+        background: rgba(15, 23, 42, 0.06);
+        color: #334155;
+        font-size: 0.875rem;
+        transition: background-color 0.18s ease, color 0.18s ease;
+    }
+
+    .code-action-button svg {
+        width: 1rem;
+        height: 1rem;
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+    .code-action-button:hover,
+    .wrap-button[aria-pressed="true"] {
+        background: rgba(85, 85, 255, 0.12);
+        color: #5555FF;
+    }
+}
+
+.dark .content .code-block {
+    border-color: rgba(148, 163, 184, 0.16);
+    background: #2b303b;
+    box-shadow: 0 18px 42px rgba(0, 0, 0, 0.24);
+
+    pre {
+        color: #e5e7eb;
+    }
+
+    &::after {
+        background: linear-gradient(90deg, rgba(43, 48, 59, 0) 0%, #2b303b 20%);
+    }
+
+    .code-action-button {
+        background: rgba(255, 255, 255, 0.1);
+        color: #f3f4f6;
+    }
+
+    .code-action-button:hover,
+    .wrap-button[aria-pressed="true"] {
+        background: rgba(255, 255, 255, 0.16);
+    }
+}
+
+.content {
+    :is(:where(blockquote):not(:where([class~="not-prose"], [class~="not-prose"] *))) {
+        position: relative;
+        margin: 2rem 0;
+        padding: 1.35rem 1.5rem 1.35rem 1.75rem;
+        border: 1px solid rgba(85, 85, 255, 0.18);
+        border-left: 4px solid #5555FF;
+        border-radius: 10px;
+        background: linear-gradient(135deg, rgba(85, 85, 255, 0.08), rgba(9, 105, 218, 0.035));
+        box-shadow: 0 16px 36px rgba(15, 23, 42, 0.08);
+        color: #243041;
+        font-family: inherit;
+        font-size: 1.0625rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.75;
+        max-height: none;
+        overflow: visible;
+
+        &::before {
+            content: "\201C";
+            position: absolute;
+            top: 0.2rem;
+            right: 1rem;
+            color: rgba(85, 85, 255, 0.14);
+            font-family: Georgia, serif;
+            font-size: 4rem;
+            line-height: 1;
+            pointer-events: none;
+        }
+
+        p {
+            position: relative;
+            margin: 0;
+            color: inherit;
+        }
+
+        p::before,
+        p::after {
+            content: none !important;
+        }
+
+        strong {
+            color: inherit;
+            font-weight: 700;
+        }
+    }
+
+    .notice {
+        position: relative;
+        margin: 1.75rem 0;
+        padding: 1.15rem 1.25rem 1.2rem;
+        border: 1px solid rgba(85, 85, 255, 0.16);
+        border-left: 4px solid #5555FF;
+        border-radius: 10px;
+        background: linear-gradient(135deg, rgba(85, 85, 255, 0.075), rgba(255, 255, 255, 0.88));
+        box-shadow: 0 14px 34px rgba(15, 23, 42, 0.07);
+        color: #334155;
+    }
+
+    .notice-head {
+        display: flex;
+        align-items: center;
+        gap: 0.65rem;
+    }
+
+    .notice-head svg {
+        box-sizing: content-box;
+        flex: 0 0 auto;
+        width: 1.1rem;
+        height: 1.1rem;
+        margin-right: 0;
+        padding: 0.35rem;
+        border-radius: 999px;
+        background: rgba(85, 85, 255, 0.12);
+        color: #5555FF;
+    }
+
+    .notice-head p {
+        margin: 0;
+        color: #172033;
+        font-size: 0.95rem;
+        font-weight: 700;
+        line-height: 1.35;
+    }
+
+    .notice-body {
+        margin-top: 0.75rem;
+    }
+
+    .notice-body p,
+    .notice-body li {
+        margin: 0;
+        color: inherit;
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    .notice-body li + li {
+        margin-top: 0.4rem;
+    }
+
+    .notice-body p + p,
+    .notice-body ul,
+    .notice-body ol {
+        margin-top: 0.75rem;
+    }
+
+    .notice.note {
+        border-color: rgba(85, 85, 255, 0.18);
+        border-left-color: #5555FF;
+        background: linear-gradient(135deg, rgba(85, 85, 255, 0.08), rgba(9, 105, 218, 0.035));
+        color: #334155;
+    }
+
+    .notice.tip {
+        border-color: rgba(16, 185, 129, 0.2);
+        border-left-color: #10b981;
+        background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(240, 253, 250, 0.72));
+        color: #334155;
+
+        .notice-head svg {
+            background: rgba(16, 185, 129, 0.13);
+            color: #059669;
+        }
+    }
+}
+
+.dark .content {
+    :is(:where(blockquote):not(:where([class~="not-prose"], [class~="not-prose"] *))) {
+        border-color: rgba(108, 138, 255, 0.26);
+        border-left-color: #5555FF;
+        background: linear-gradient(135deg, rgba(85, 85, 255, 0.16), rgba(15, 23, 42, 0.62));
+        box-shadow: 0 16px 36px rgba(0, 0, 0, 0.22);
+        color: #e5e7eb;
+
+        &::before {
+            color: rgba(108, 138, 255, 0.18);
+        }
+    }
+
+    .notice {
+        border-color: rgba(108, 138, 255, 0.24);
+        border-left-color: #5555FF;
+        background: linear-gradient(135deg, rgba(85, 85, 255, 0.16), rgba(15, 23, 42, 0.62));
+        box-shadow: 0 16px 36px rgba(0, 0, 0, 0.22);
+        color: #dbe3ef;
+    }
+
+    .notice-head svg {
+        background: rgba(108, 138, 255, 0.16);
+        color: #8ea2ff;
+    }
+
+    .notice-head p {
+        color: #f3f4f6;
+    }
+
+    .notice.note {
+        border-color: rgba(108, 138, 255, 0.26);
+        border-left-color: #5555FF;
+        background: linear-gradient(135deg, rgba(85, 85, 255, 0.16), rgba(15, 23, 42, 0.62));
+        color: #dbe3ef;
+    }
+
+    .notice.tip {
+        border-color: rgba(52, 211, 153, 0.24);
+        border-left-color: #10b981;
+        background: linear-gradient(135deg, rgba(16, 185, 129, 0.15), rgba(15, 23, 42, 0.62));
+        color: #dbe3ef;
+
+        .notice-head svg {
+            background: rgba(16, 185, 129, 0.17);
+            color: #6ee7b7;
+        }
+    }
 }
 
 .travel-map-grid {
@@ -181,6 +494,8 @@ blockquote {
 
     blockquote {
         flex: 1;
+        max-height: 230px;
+        overflow-y: auto;
     }
 
     blockquote + div {

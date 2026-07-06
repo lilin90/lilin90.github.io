@@ -1,14 +1,30 @@
 <div class="code-block relative">
+  <div class="code-block-controls">
     <button
-      class="copy-button absolute top-6 right-2 w-12 h-8 flex items-center justify-center text-gray-100 rounded text-sm dark:text-gray-200"
+      class="code-action-button wrap-button"
+      type="button"
+      title="Enable code wrap"
+      aria-label="Enable code wrap"
+      aria-pressed="false"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M4 6h16M4 11h10a4 4 0 0 1 0 8H9" />
+        <path d="m12 16-3 3 3 3" />
+      </svg>
+    </button>
+    <button
+      class="code-action-button copy-button"
+      type="button"
       data-copy-text="<i class='fas fa-copy'></i>"
       data-copied-text="<i class='fas fa-check'></i>"
       title="Copy"
+      aria-label="Copy code"
     >
-    <i class="fas fa-copy"></i>
+      <i class="fas fa-copy"></i>
     </button>
+  </div>
     {{- if .Type -}}
-    {{- $opts := dict "language" .Type "highlightLines" "" "lineNos" false "style" "monokai" -}}
+    {{- $opts := dict "language" .Type "highlightLines" "" "lineNos" false "style" "emacs" -}}
     <div class="overflow-x-auto">
       {{- highlight .Inner .Type $opts -}}
     </div>
