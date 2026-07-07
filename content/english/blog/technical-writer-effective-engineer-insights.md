@@ -9,6 +9,7 @@ categories: ["Book Insights"]
 author: "Lilian Lee"
 tags: ["Reading"]
 draft: false
+math: true
 ---
 
 At first glance, Edmond Lau's [*The Effective Engineer*](https://www.goodreads.com/en/book/show/25238425) might seem exclusively for software engineers. But as the author himself notes in the epilogue, "most of the advice in this book applies beyond engineering." As a Technical Writer, I couldn't agree more. Many of the ideas deeply resonate with our work in technical communication.
@@ -29,13 +30,15 @@ This book, boasting an impressive [4.25 rating on Goodreads](https://www.goodrea
 
 The core idea of the book is simple yet powerful: focus on high-leverage activities.
 
-So, what counts as high-leverage activities? In short, they are the ones that let you create greater impact with less time invested.
+So, what counts as high-leverage activities? In short, they are the ones that let you create greater impact with less time invested. The leverage formula is:
 
-The leverage formula is: **Leverage = Impact produced ÷ Time invested** ⭐️
+> $$
+> \text{Leverage} = \frac{\text{Impact produced}}{\text{Time invested}}
+> $$
 
 To become more effective, we need to consciously choose tasks that offer a high return on investment (ROI) for the effort we put in.
 
-This connects nicely with the [Pareto Principle](https://en.wikipedia.org/wiki/Pareto_principle) (also known as the 80/20 Rule), an observation that roughly 80% of outcomes come from 20% of causes. For example, 20% of customers bring 80% of profits, or 20% of products dominate 80% of the market.
+This connects nicely with the [Pareto Principle](https://en.wikipedia.org/wiki/Pareto_principle) (also known as the 80/20 Rule), an observation that **roughly 80% of outcomes come from 20% of causes**. For example, 20% of customers bring 80% of profits, or 20% of products dominate 80% of the market.
 
 If you reflect on your past performance reviews at work, you might notice that the achievements that truly helped you stand out came from just 20% (or even less) of your work. The remaining 80% was often seen as routine or unremarkable.
 

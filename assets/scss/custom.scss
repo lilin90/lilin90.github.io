@@ -28,6 +28,22 @@
         margin-top: 0;
         margin-bottom: 0;
     }
+
+    :is(:where(ul > li):not(:where([class~="not-prose"], [class~="not-prose"] *)))::marker {
+        color: #64748b;
+    }
+
+    :is(:where(ol > li):not(:where([class~="not-prose"], [class~="not-prose"] *)))::marker {
+        color: #475569;
+        font-weight: 500;
+    }
+
+    mjx-container[display="true"] {
+        margin: 1.25rem 0;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding: 0.25rem 0;
+    }
 }
 
 // dark mode style
@@ -42,6 +58,15 @@
     a:hover {
         color: #5555FF;              /* 颜色加深 */
         text-decoration: underline;  /* 悬停显示下划线 */
+    }
+
+    :is(:where(ul > li):not(:where([class~="not-prose"], [class~="not-prose"] *)))::marker {
+        color: #94a3b8;
+    }
+
+    :is(:where(ol > li):not(:where([class~="not-prose"], [class~="not-prose"] *)))::marker {
+        color: #94a3b8;
+        font-weight: 400;
     }
 }
 }
