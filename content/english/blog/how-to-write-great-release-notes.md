@@ -8,7 +8,7 @@ image: "/images/blog/blackthorn.png"
 # image: "https://res.cloudinary.com/lilian-photos/image/upload/v1743427957/blog-images/blackthorn_1920.png"
 categories: ["Tech Comm"]
 author: "Lilian Lee"
-tags: ["Release Notes"]
+tags: ["Technical Writing", "Release Notes"]
 draft: false
 ---
 

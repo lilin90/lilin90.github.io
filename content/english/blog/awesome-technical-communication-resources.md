@@ -8,7 +8,7 @@ date: 2025-02-16
 image: "/images/blog/sunflower.png"
 categories: ["Tech Comm"]
 author: "Lilian Lee"
-tags: ["Open Source", "GitHub"]
+tags: ["Open Source", "GitHub", "Resources"]
 draft: false
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: "Maximizing Impact as a Technical Writer: Insights from \"The Effective Engineer\""
-meta_title: "Maximizing Impact as a Technical Writer: Insights from \"The Effective Engineer\""
-description: "Learn how to maximize your impact as a Technical Writer using 5 key insights from \"The Effective Engineer,\" including leverage, automation, & a growth mindset."
-summary: "Learn how to maximize your impact as a Technical Writer using 5 key insights from \"The Effective Engineer,\" including leverage, automation, & a growth mindset."
+title: "Maximizing Impact as a Technical Writer: Insights from The Effective Engineer"
+meta_title: "Maximizing Impact as a Technical Writer: Insights from The Effective Engineer"
+description: "Learn how to maximize your impact as a Technical Writer through five key lessons from The Effective Engineer, covering leverage, automation, metrics, growth mindset, and pragmatism."
+summary: "Learn how to maximize your impact as a Technical Writer through five key lessons from The Effective Engineer, covering leverage, automation, metrics, growth mindset, and pragmatism."
 date: 2025-06-14
 image: "/images/blog/lighthouse.png"
 categories: ["Book Insights"]

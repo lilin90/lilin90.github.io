@@ -9,10 +9,8 @@ thumbnailImage: https://res.cloudinary.com/lilian-photos/image/upload/v170247354
 # coverImage:
 # metaAlignment: center
 # coverMeta: out
-categories:
-- Travel
-tags:
-- Public Speaking
+categories: ["Travel"]
+tags: ["Public Speaking", "Technical Writing"]
 # showTags: true
 # showPagination: true
 # showSocial: true
