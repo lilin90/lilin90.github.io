@@ -28,9 +28,9 @@ This article summarizes the SEO fundamentals and practical techniques I’ve fou
 
 From a documentation perspective, SEO can be understood through three key dimensions:
 
-1. [Relevance](#1-improve-content-relevance) — Does the content answer what users are searching for?
-2. [Authority](#2-build-website-authority) — Can the website be trusted as a reliable source?
-3. [Experience](#3-improve-content-experience) — Is the content easy for humans and machines to discover, understand, and use?
+1. **Relevance** — Does the content answer what users are searching for?
+2. **Authority** — Can the website be trusted as a reliable source?
+3. **Experience** — Is the content easy for humans and machines to discover, understand, and use?
 
 The following sections explore practical documentation SEO practices through these three dimensions.
 

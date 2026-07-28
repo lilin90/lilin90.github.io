@@ -38,27 +38,6 @@
         font-weight: 500;
     }
 
-    :is(:where(table):not(:where([class~="not-prose"], [class~="not-prose"] *))) {
-        font-size: 16px;
-    }
-
-    :is(:where(thead):not(:where([class~="not-prose"], [class~="not-prose"] *))) {
-        background: rgba(85, 85, 255, 0.08);
-    }
-
-    :is(:where(th, td):not(:where([class~="not-prose"], [class~="not-prose"] *))) {
-        padding-top: 14px;
-        padding-bottom: 14px;
-
-        &:not(:last-child) {
-            border-right: 1px solid rgba(148, 163, 184, 0.18);
-        }
-    }
-
-    :is(:where(td):not(:where([class~="not-prose"], [class~="not-prose"] *))) {
-        color: #001e2b;
-    }
-
     mjx-container[display="true"] {
         margin: 1.25rem 0;
         overflow-x: auto;
@@ -88,16 +67,6 @@
     :is(:where(ol > li):not(:where([class~="not-prose"], [class~="not-prose"] *)))::marker {
         color: #94a3b8;
         font-weight: 400;
-    }
-
-    :is(:where(thead):not(:where([class~="not-prose"], [class~="not-prose"] *))) {
-        background: rgba(85, 85, 255, 0.16);
-    }
-
-    :is(:where(th, td):not(:where([class~="not-prose"], [class~="not-prose"] *))) {
-        &:not(:last-child) {
-            border-right-color: rgba(148, 163, 184, 0.16);
-        }
     }
 }
 }
